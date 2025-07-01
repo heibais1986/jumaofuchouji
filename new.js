@@ -117,13 +117,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 connecting: "Connecting to projector...",
                 scenes: [
                     { type: 'title', text: "Evidence 1: Chat Log" },
-                    { type: 'quote', text: '"That\'s your own business. I didn\'t force you."' },
+                    { type: 'quote', text: "“That's your own business. I didn't force you.”" },
                     { type: 'title', text: 'Evidence 2: Chats with "Benefactors"' },
-                    { type: 'quote', text: '"That fool sent another 100k..."' },
+                    { type: 'quote', text: "“That fool sent another 100k...”" },
                     { type: 'title', text: "Final Evidence: The 510,000 Transfer" },
-                    { type: 'quote', text: 'Note: "Willingly gifted"' },
+                    { type: 'quote', text: 'Note: “Willingly gifted”' },
                     { type: 'title', text: "And... Lin Mo's Last Hamburger" },
-                    { type: 'final', text: '"I won\'t eat veggie meals anymore..."', emoji: "🍔" }
+                    { type: 'final', text: "“I won't eat veggie meals anymore...”", emoji: "🍔" }
                 ],
                 ended: "Playback Ended"
             }
@@ -200,18 +200,28 @@ document.addEventListener('DOMContentLoaded', () => {
     const videoTimestamp = document.getElementById('video-timestamp');
 
     let evidenceTimeouts = [];
-    let progressInterval;
+    let progressInterval = null;
+
+    const stopEvidencePlayback = () => {
+        if (evidenceTimeouts.length > 0) {
+            evidenceTimeouts.forEach(clearTimeout);
+            evidenceTimeouts = [];
+        }
+        if (progressInterval) {
+            clearInterval(progressInterval);
+            progressInterval = null;
+        }
+    };
 
     const openEvidenceModal = () => {
-        const videoData = langData[currentLang].evidence_video;
-        const totalDuration = 12;
-        let currentTime = 0;
+        stopEvidencePlayback();
 
         evidenceModal.classList.remove('hidden');
         evidenceContent.innerHTML = '';
-        evidenceTimeouts.forEach(clearTimeout);
-        evidenceTimeouts = [];
-        clearInterval(progressInterval);
+
+        const videoData = langData[currentLang].evidence_video;
+        const totalDuration = 12;
+        let currentTime = 0;
 
         progressBar.style.width = '0%';
         videoStatus.textContent = "▶ PLAYING";
@@ -258,9 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const closeEvidenceModal = () => {
         evidenceModal.classList.add('hidden');
-        evidenceTimeouts.forEach(clearTimeout);
-        clearInterval(progressInterval);
-        evidenceTimeouts = [];
+        stopEvidencePlayback();
     };
 
     if(viewEvidenceBtn) viewEvidenceBtn.addEventListener('click', openEvidenceModal);

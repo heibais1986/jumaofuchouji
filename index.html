@@ -14,6 +14,7 @@
         1. Critical Juncture -> Empower User -> Interactive Choice Buttons -> Click to select path -> Engages user directly in the narrative -> HTML/CSS/JS.
         2. Story Branches -> Present alternate realities -> Dynamically shown/hidden content blocks -> JS state management -> Allows for complex, non-linear storytelling within a single page -> HTML/CSS/JS.
         3. Retained Modals -> Provide evidence -> Clickable modals for chat/evidence -> Deepens immersion for each path -> HTML/CSS/JS.
+        4. Video Simulation -> Maximize dramatic impact -> Animated sequence in a modal with player controls -> Simulates a video playback for the climax -> HTML/CSS/JS.
         This approach avoids SVG/Mermaid and uses conditional rendering logic to manage multiple story paths, creating a richer interactive experience. -->
     <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
@@ -69,11 +70,16 @@
         }
         .evidence-item {
             opacity: 0;
+            transform: translateY(20px);
             animation: fadeIn 1s forwards;
+        }
+        .progress-bar-inner {
+            transition: width 1s linear;
         }
         @keyframes fadeIn {
             to {
                 opacity: 1;
+                transform: translateY(0);
             }
         }
     </style>
@@ -220,7 +226,7 @@
     <p data-lang-key="footer_text"></p>
 </footer>
 
-<!-- Modals remain the same -->
+<!-- Chat Modal -->
 <div id="chat-modal" class="fixed inset-0 z-50 flex justify-center items-center p-4 modal-backdrop hidden">
     <div class="phone-screen flex flex-col overflow-hidden">
         <div class="bg-gray-200 p-3 flex items-center shadow-sm">
@@ -232,15 +238,26 @@
         <div class="bg-gray-200 p-2"></div>
     </div>
 </div>
+
+<!-- Evidence "Video" Modal -->
 <div id="evidence-modal" class="fixed inset-0 z-50 flex justify-center items-center p-4 modal-backdrop hidden">
-    <div class="projector-screen flex flex-col relative overflow-hidden p-8">
-        <button id="close-evidence-btn" class="absolute top-4 right-4 text-white text-2xl z-10">&times;</button>
-        <div id="evidence-content" class="w-full h-full flex flex-col justify-center items-center text-center space-y-6">
+    <div class="projector-screen flex flex-col relative overflow-hidden p-6 md:p-8 justify-between">
+        <button id="close-evidence-btn" class="absolute top-4 right-4 text-white text-3xl z-20">&times;</button>
+        <div id="evidence-content" class="w-full h-full flex flex-col justify-center items-center text-center space-y-4 md:space-y-6 overflow-hidden">
+        </div>
+        <div class="w-full mt-4">
+            <div class="flex justify-between items-center text-xs text-gray-400 mb-1">
+                <span id="video-status">▶ PLAYING</span>
+                <span id="video-timestamp">0:00 / 0:12</span>
+            </div>
+            <div class="w-full bg-gray-700 rounded-full h-1.5">
+                <div id="progress-bar" class="bg-purple-500 h-1.5 rounded-full" style="width: 0%"></div>
+            </div>
         </div>
     </div>
 </div>
 
-<script src="main.js"></script>
+<script src="new.js"></script>
 
 </body>
 </html>
