@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
             app_title: "橘猫重生复仇记",
             nav_abyss: "深渊",
             nav_choice: "抉择",
-            nav_revenge: "复仇",
-            nav_judgment: "审判",
-            nav_sunshine: "暖阳",
             hero_title: "一念深渊，一世复仇",
             hero_subtitle: "一个关于背叛与重生的故事。你的选择，将决定他的命运。",
             ep1_title: "第一集：深渊",
@@ -27,50 +24,47 @@ document.addEventListener('DOMContentLoaded', () => {
             path_a_ep3_subtitle: "电话挂断，世界重归死寂。他输得一败涂地，连复仇的念想也一同沉入江底。第二天，新闻报道了一则无人认领的溺亡事件，无人关心他是谁，也无人记得他的故事。",
             ep2_title: "B-2: 新生",
             ep2_subtitle: "意识在黑暗中重聚，他发现自己被困在一个柔软的身体里。他成了橘猫元宝，带着前世所有的记忆和怨恨，在一个全新的世界里，蛰伏着。",
-            ep2_card1_title: "猫的躯体，人的灵魂",
-            ep2_card1_text: "新主人苏晚给了他顶级的猫生。他努力适应四条腿走路，对抗追逐光点的本能，并竖起耳朵，在旁听商业会议中学习金融、法律与人性。",
-            ep2_card2_title: "复仇之火",
-            ep2_card2_text: "夜晚，他用还不甚熟练的肉垫和鼻尖，在平板上搜索仇人的名字。当‘谭欣’的名字出现在一场晚宴名单上时，他碧绿的猫眼里，燃起了地狱之火。",
             ep3_title: "B-3: 复仇之路",
             ep3_subtitle: "一场精心策划的复仇，每一步都精准地踩在谭欣的痛点上。他不再是那个卑微的林默，而是藏在暗处，操纵一切的复仇之神。",
-            ep3_card1_title: "第一步：扰乱",
-            ep3_card1_text: "晚宴上“意外”的红酒，让她精心维持的优雅第一次当众破裂。这是他送上的第一份礼物，也是她噩梦的开始。",
-            ep3_card2_title: "第二步：恐吓",
-            ep3_card2_text: "他潜入花店，在她最得意的花艺作品核心，放上了一只死老鼠。他在黑暗中欣赏着她的尖叫与崩溃。",
-            ep3_card3_title: "第三步：搜证",
-            ep3_card3_text: "项圈摄像头拍下的致命聊天记录，以及从她旧手包里找到的、存有黑历史的U盘，为最后的审判备好了最锋利的刀刃。",
+            step1_desc: "第一步：扰乱。晚宴是绝佳的机会，元宝决定给谭欣的社交活动制造一点小麻烦。他应该怎么做？",
+            step1_choice_correct: "绊倒她，让她当众出丑",
+            step1_choice_incorrect: "直接冲上台，抓挠谭欣",
+            step1_failure: "失败！猫咪的突然攻击引起了骚乱，但很快被保安制服。谭欣虽然受了惊吓，却博取了同情。计划失败。",
+            step2_desc: "第二步：恐吓。谭欣要参加重要的花艺展，这是打击她事业的良机。元宝潜入了花店，他决定留下一个“惊喜”。",
+            step2_choice_incorrect: "打翻所有花瓶",
+            step2_choice_correct: "在她的作品里放上死老鼠",
+            step2_failure: "失败！打翻花瓶只造成了金钱损失，谭欣很快就重新布置好了。你的行动没有造成实质性打击。",
+            step3_desc: "第三步：搜证。元宝获得了接近谭欣手包的机会，里面有她的手机。这是获取核心证据的关键时刻。",
+            step3_choice_correct: "用项圈摄像头拍下手机内容",
+            step3_choice_incorrect: "把手机叼走藏起来",
+            step3_failure: "失败！你成功藏起了手机，但谭欣很快通过定位找到了它。你不仅暴露了自己，还一无所获。",
+            retry_button: "返回重试",
             ep6_title: "B-4: 审判",
-            ep6_subtitle: "投资发布会，是谭欣人生的巅峰。她含泪讲述着“艰苦创业”的故事，殊不知，这将是她坠入地狱的开始。当大屏幕亮起，所有的谎言和罪恶都将公之于众。",
-            ep6_button: "观看审判现场",
+            ep6_subtitle: "投资发布会，是谭欣人生的巅峰。她含泪讲述着“艰苦创业”的故事，殊不知，这将是她坠入地狱的开始。你，来导演这场终局。",
+            judgment1_desc: "第一步：接入。元宝潜入后台，找到了控制投影仪的电脑。他必须想办法把存有证据的U盘插进去。他该怎么做？",
+            judgment1_choice_correct: "制造混乱，趁技术员不备换掉U盘",
+            judgment1_choice_incorrect: "跳上键盘，试图自己操作",
+            judgment1_failure: "失败！你的举动被当成普通的猫咪捣乱，被技术员抱走了。你失去了唯一的机会。",
+            judgment2_desc: "第二步：开场。成功了！谭欣正在台上演讲。现在，你来决定第一张打出的牌，用什么来作为揭穿她的开场？",
+            judgment2_choice_correct: "先放出她与其他“金主”的聊天记录",
+            judgment2_choice_incorrect: "直接放出51万的转账记录",
+            judgment2_failure: "效果不佳！谭欣声称这是恋爱赠予，虽引起议论但她暂时稳住了局势，并要求保安介入。",
+            judgment3_desc: "第三步：终结。现场已经一片哗然，但还差最后一击！用什么来彻底终结这场审判？",
+            judgment3_choice_correct: "放出林默最后的汉堡截图",
+            judgment3_choice_incorrect: "循环播放她的聊天记录",
+            judgment3_failure: "力度不够！虽然大家已对她无比鄙夷，但缺乏致命一击让她有机会在混乱中溜走。",
             ep7_title: "结局B: 暖阳",
             ep7_subtitle: "当仇恨散去，复仇的火焰终归熄灭。他没有感到狂喜，只有一种漫长的、疲惫的解脱。他终于能像一只真正的猫那样，享受一餐美味的金枪鱼罐头。",
             ep7_card_title: "新的猫生",
             ep7_card_text: "他不再是复仇的鬼魂，他是一只被爱着的、有家的猫。在苏晚温暖的怀抱里，他发出了满足的、响亮的呼噜声。窗外，新月明亮，照亮了前路。",
             footer_text: "一个故事的结束，是另一个故事的开始。",
             chat_header: "谭欣",
-            chat_log: [ { type: 'sent', text: "花店是怎么回事？" }, { type: 'sent', text: "那些钱……" }, { type: 'received', text: "林默，我们分手吧。" }, { type: 'received', text: "那些钱，是你自愿给我的，算是我们谈恋爱期间的共同基金。" }, { type: 'sent', text: "你说过要结婚的。" }, { type: 'received', text: "你太幼稚了，那点钱在重庆能做什么？" }, { type: 'sent', text: "我为了你，两年没吃过一顿好的……" }, { type: 'received', text: "那是你自己的事，我没逼你。" }, { type: 'system', text: "你已被对方拉黑" } ],
-            evidence_video: {
-                connecting: "连接投影仪...",
-                scenes: [
-                    { type: 'title', text: "证据一：聊天记录" },
-                    { type: 'quote', text: "“那是你自己的事，我没逼你。”" },
-                    { type: 'title', text: "证据二：与“金主”的对话" },
-                    { type: 'quote', text: "“那个傻子又打了十万过来...”" },
-                    { type: 'title', text: "最终证据：51万转账" },
-                    { type: 'quote', text: "备注：“自愿赠予”" },
-                    { type: 'title', text: "以及...林默最后的汉堡" },
-                    { type: 'final', text: "“我以后再也不吃素菜了...”", emoji: "🍔" }
-                ],
-                ended: "播放结束"
-            }
+            chat_log: [ { type: 'sent', text: "花店是怎么回事？" }, { type: 'sent', text: "那些钱……" }, { type: 'received', text: "林默，我们分手吧。" }, { type: 'received', text: "那些钱，是你自愿给我的，算是我们谈恋爱期间的共同基金。" }, { type: 'sent', text: "你说过要结婚的。" }, { type: 'received', text: "你太幼稚了，那点钱在重庆能做什么？" }, { type: 'sent', text: "我为了你，两年没吃过一顿好的……" }, { type: 'received', text: "那是你自己的事，我没逼你。" }, { type: 'system', text: "你已被对方拉黑" } ]
         },
         en: {
             app_title: "The Reborn Cat's Revenge",
             nav_abyss: "Abyss",
             nav_choice: "Choice",
-            nav_revenge: "Revenge",
-            nav_judgment: "Judgment",
-            nav_sunshine: "Sunshine",
             hero_title: "An Abyss of Betrayal, A Lifetime of Revenge",
             hero_subtitle: "A story of betrayal and rebirth. Your choice will decide his fate.",
             ep1_title: "Episode 1: The Abyss",
@@ -91,42 +85,42 @@ document.addEventListener('DOMContentLoaded', () => {
             path_a_ep3_subtitle: "The call ended, and the world returned to a dead silence. He had lost completely; even the thought of revenge sank to the bottom of the river. The next day, the news reported an unidentified drowning, and no one cared who he was or remembered his story.",
             ep2_title: "B-2: Rebirth",
             ep2_subtitle: "Consciousness re-formed in darkness. He found himself trapped in a soft body. He became the orange cat Yuanbao, carrying all past memories and hatred, lying in wait in a brand new world.",
-            ep2_card1_title: "A Human Soul in a Cat's Body",
-            ep2_card1_text: "His new owner, Su Wan, gave him a life of luxury. He struggled to adapt, fighting his feline instincts while secretly learning about finance, law, and human nature by listening to business meetings.",
-            ep2_card2_title: "The Fire of Revenge",
-            ep2_card2_text: "By night, he used his clumsy paws and nose to search for his enemy on a tablet. When 'Tan Xin' appeared on a gala guest list, his emerald cat eyes burned with the fires of hell.",
             ep3_title: "B-3: The Path of Revenge",
             ep3_subtitle: "A meticulously planned revenge, each step striking Tan Xin's weak points. He was no longer the humble Lin Mo, but the god of vengeance pulling the strings from the shadows.",
-            ep3_card1_title: "Step 1: Disruption",
-            ep3_card1_text: "An 'accidental' wine spill at the gala shattered her carefully maintained elegance in public for the first time. It was his first gift, and the beginning of her nightmare.",
-            ep3_card2_title: "Step 2: Intimidation",
-            ep3_card2_text: "He snuck into her flower shop and placed a dead mouse in her proudest creation. He savored her screams of collapse from the darkness.",
-            ep3_card3_title: "Step 3: Evidence",
-            ep3_card3_text: "The collar camera captured damning chats, and a U-disk found in her old purse sharpened the blade for the final judgment.",
+            step1_desc: "Step 1: Disruption. The gala is a perfect opportunity. Yuanbao decides to cause a little trouble for Tan Xin's social climbing. What should he do?",
+            step1_choice_correct: "Trip her to cause public embarrassment",
+            step1_choice_incorrect: "Rush onto the stage and scratch her",
+            step1_failure: "Failed! The sudden attack caused a commotion but was quickly handled by security. Tan Xin, though frightened, gained sympathy. The plan failed.",
+            step2_desc: "Step 2: Intimidation. Tan Xin is participating in a major floral exhibition, a great chance to damage her career. Yuanbao sneaks into the flower shop and decides to leave a 'surprise'.",
+            step2_choice_incorrect: "Knock over all the vases",
+            step2_choice_correct: "Place a dead mouse in her masterpiece",
+            step2_failure: "Failed! Knocking over vases only caused financial loss, which she quickly recovered from. Your action caused no real damage.",
+            step3_desc: "Step 3: Evidence. Yuanbao gets close to Tan Xin's handbag, which contains her phone. This is the key moment to get crucial evidence.",
+            step3_choice_correct: "Use the collar camera to record the phone screen",
+            step3_choice_incorrect: "Snatch the phone and hide it",
+            step3_failure: "Failed! You successfully hid the phone, but Tan Xin quickly located it via GPS. You not only exposed yourself but also gained nothing.",
+            retry_button: "Try Again",
             ep6_title: "B-4: The Judgment",
-            ep6_subtitle: "The investment conference was the peak of Tan Xin's life. As she tearfully told her story of 'hardship', she didn't know it was the start of her descent into hell. When the big screen lit up, all lies would be exposed.",
-            ep6_button: "Witness The Judgment",
+            ep6_subtitle: "The investment conference is the peak of Tan Xin's life. As she tearfully tells her story of 'hardship', she doesn't know it is the start of her descent into hell. It is you who will direct this finale.",
+            judgment1_desc: "Step 1: Access. Yuanbao sneaks backstage and finds the laptop controlling the projector. He must find a way to plug in the USB drive with the evidence. What should he do?",
+            judgment1_choice_correct: "Create a distraction and swap the USB drive",
+            judgment1_choice_incorrect: "Jump on the keyboard and operate it himself",
+            judgment1_failure: "Failed! Your action was seen as a cat just messing around and you were carried away by a technician. You lost your only chance.",
+            judgment2_desc: "Step 2: The Opening. Success! Tan Xin is giving a speech on stage. Now, you decide the first card to play. What will you use to open the exposé?",
+            judgment2_choice_correct: "Show her chat logs with other 'benefactors' first",
+            judgment2_choice_incorrect: "Directly show the 510,000 yuan transfer record",
+            judgment2_failure: "Not effective! Tan Xin claimed it was a gift. While it caused a stir, she stabilized the situation and called for security.",
+            judgment3_desc: "Step 3: The Finale. The scene is in an uproar, but one final blow is needed! What will you use to end this judgment completely?",
+            judgment3_choice_correct: "Show the screenshot of Lin Mo's last hamburger",
+            judgment3_choice_incorrect: "Loop her incriminating chat records",
+            judgment3_failure: "Not impactful enough! Though everyone despises her, the lack of a fatal blow gives her a chance to slip away in the chaos.",
             ep7_title: "Ending B: The Sunshine",
             ep7_subtitle: "When hatred faded, the flames of revenge were finally extinguished. He felt no ecstasy, only a long, weary release. He could finally enjoy a delicious can of tuna, like a real cat.",
             ep7_card_title: "A New Feline Life",
             ep7_card_text: "He was no longer a ghost of vengeance, but a beloved cat with a home. In Su Wan's warm embrace, he purred with contentment. Outside, the new moon was bright, illuminating the path ahead.",
             footer_text: "The end of one story is the beginning of another.",
             chat_header: "Tan Xin",
-            chat_log: [ { type: 'sent', text: "What's with the flower shop?" }, { type: 'sent', text: "And the money..." }, { type: 'received', text: "Lin Mo, let's break up." }, { type: 'received', text: "That money was a gift, a fund for our relationship. You gave it willingly." }, { type: 'sent', text: "You said we would get married." }, { type: 'received', text: "You're so naive. What can that little money do in this city?" }, { type: 'sent', text: "For you, I ate poorly for two years..." }, { type: 'received', text: "That's your own business. I didn't force you." }, { type: 'system', text: "You have been blocked by this user" } ],
-            evidence_video: {
-                connecting: "Connecting to projector...",
-                scenes: [
-                    { type: 'title', text: "Evidence 1: Chat Log" },
-                    { type: 'quote', text: "“That's your own business. I didn't force you.”" },
-                    { type: 'title', text: 'Evidence 2: Chats with "Benefactors"' },
-                    { type: 'quote', text: "“That fool sent another 100k...”" },
-                    { type: 'title', text: "Final Evidence: The 510,000 Transfer" },
-                    { type: 'quote', text: 'Note: “Willingly gifted”' },
-                    { type: 'title', text: "And... Lin Mo's Last Hamburger" },
-                    { type: 'final', text: "“I won't eat veggie meals anymore...”", emoji: "🍔" }
-                ],
-                ended: "Playback Ended"
-            }
+            chat_log: [ { type: 'sent', text: "What's with the flower shop?" }, { type: 'sent', text: "And the money..." }, { type: 'received', text: "Lin Mo, let's break up." }, { type: 'received', text: "That money was a gift, a fund for our relationship. You gave it willingly." }, { type: 'sent', text: "You said we would get married." }, { type: 'received', text: "You're so naive. What can that little money do in this city?" }, { type: 'sent', text: "For you, I ate poorly for two years..." }, { type: 'received', text: "That's your own business. I didn't force you." }, { type: 'system', text: "You have been blocked by this user" } ]
         }
     };
     let currentLang = 'zh';
@@ -183,112 +177,12 @@ document.addEventListener('DOMContentLoaded', () => {
         chatModal.classList.remove('hidden');
     };
 
-    viewChatBtn.addEventListener('click', openChatModal);
-    closeChatBtn.addEventListener('click', () => chatModal.classList.add('hidden'));
-    chatModal.addEventListener('click', (e) => {
+    if (viewChatBtn) viewChatBtn.addEventListener('click', openChatModal);
+    if(closeChatBtn) closeChatBtn.addEventListener('click', () => chatModal.classList.add('hidden'));
+    if(chatModal) chatModal.addEventListener('click', (e) => {
         if (e.target === chatModal) {
             chatModal.classList.add('hidden');
         }
-    });
-
-    const evidenceModal = document.getElementById('evidence-modal');
-    const viewEvidenceBtn = document.getElementById('view-evidence-btn');
-    const closeEvidenceBtn = document.getElementById('close-evidence-btn');
-    const evidenceContent = document.getElementById('evidence-content');
-    const progressBar = document.getElementById('progress-bar');
-    const videoStatus = document.getElementById('video-status');
-    const videoTimestamp = document.getElementById('video-timestamp');
-
-    let evidenceTimeouts = [];
-    let progressInterval = null;
-
-    const stopEvidencePlayback = () => {
-        if (evidenceTimeouts.length > 0) {
-            evidenceTimeouts.forEach(clearTimeout);
-            evidenceTimeouts = [];
-        }
-        if (progressInterval) {
-            clearInterval(progressInterval);
-            progressInterval = null;
-        }
-    };
-
-    const openEvidenceModal = () => {
-        stopEvidencePlayback();
-
-        evidenceModal.classList.remove('hidden');
-        evidenceContent.innerHTML = '';
-
-        const videoData = langData[currentLang].evidence_video;
-        const totalDuration = 12;
-        let currentTime = 0;
-
-        progressBar.style.width = '0%';
-        videoStatus.textContent = "▶ PLAYING";
-        videoTimestamp.textContent = `0:00 / 0:${totalDuration}`;
-
-        const connectingEl = document.createElement('div');
-        connectingEl.className = 'evidence-item text-xl text-gray-400';
-        connectingEl.textContent = videoData.connecting;
-        evidenceContent.appendChild(connectingEl);
-
-        let delay = 1500;
-        videoData.scenes.forEach((scene, index) => {
-            const timeoutId = setTimeout(() => {
-                evidenceContent.innerHTML = '';
-                const el = document.createElement('div');
-                el.className = 'evidence-item';
-
-                if (scene.type === 'title') {
-                    el.className += ' text-3xl md:text-4xl font-bold';
-                } else if (scene.type === 'quote') {
-                    el.className += ' text-xl md:text-2xl text-red-400 italic';
-                } else if (scene.type === 'final') {
-                    el.className += ' text-2xl md:text-3xl font-bold';
-                    el.innerHTML = `${scene.text} <span class="text-5xl">${scene.emoji}</span>`;
-                }
-                if (scene.type !== 'final') el.textContent = scene.text;
-
-                evidenceContent.appendChild(el);
-            }, delay * (index + 1));
-            evidenceTimeouts.push(timeoutId);
-        });
-
-        progressInterval = setInterval(() => {
-            currentTime++;
-            const progress = (currentTime / totalDuration) * 100;
-            progressBar.style.width = `${progress}%`;
-            videoTimestamp.textContent = `0:${String(currentTime).padStart(2, '0')} / 0:${totalDuration}`;
-            if (currentTime >= totalDuration) {
-                clearInterval(progressInterval);
-                videoStatus.textContent = "■ ENDED";
-            }
-        }, 1000);
-    };
-
-    const closeEvidenceModal = () => {
-        evidenceModal.classList.add('hidden');
-        stopEvidencePlayback();
-    };
-
-    if(viewEvidenceBtn) viewEvidenceBtn.addEventListener('click', openEvidenceModal);
-    closeEvidenceBtn.addEventListener('click', closeEvidenceModal);
-    evidenceModal.addEventListener('click', (e) => {
-        if (e.target === evidenceModal) {
-            closeEvidenceModal();
-        }
-    });
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            const targetElement = document.querySelector(this.getAttribute('href'));
-            if (targetElement) {
-                targetElement.scrollIntoView({
-                    behavior: 'smooth'
-                });
-            }
-        });
     });
 
     const choiceSection = document.getElementById('choice-section');
@@ -319,6 +213,43 @@ document.addEventListener('DOMContentLoaded', () => {
     choiceA_Btn.addEventListener('click', () => makeChoice('A'));
     choiceB_Btn.addEventListener('click', () => makeChoice('B'));
     resetChoiceBtn.addEventListener('click', resetChoice);
+
+    const handleStepChoice = (e, type) => {
+        const step = parseInt(e.currentTarget.dataset.step);
+        const isCorrect = e.currentTarget.dataset.correct === 'true';
+        const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+
+        if (isCorrect) {
+            currentStepContainer.classList.add('hidden');
+            if (step < 3) {
+                const nextStepContainer = document.getElementById(`${type}-step-${step + 1}`);
+                nextStepContainer.classList.remove('hidden');
+            } else {
+                const finalContent = document.getElementById(type === 'revenge' ? 'path-b-final-content' : 'path-b-ending');
+                finalContent.classList.remove('hidden');
+                finalContent.querySelectorAll('.story-section').forEach(s => observer.observe(s));
+            }
+        } else {
+            currentStepContainer.querySelector('.failure-message').classList.remove('hidden');
+        }
+    };
+
+    document.querySelectorAll('.choice-btn').forEach(button => {
+        button.addEventListener('click', (e) => handleStepChoice(e, 'revenge'));
+    });
+
+    document.querySelectorAll('.judgment-choice-btn').forEach(button => {
+        button.addEventListener('click', (e) => handleStepChoice(e, 'judgment'));
+    });
+
+    document.querySelectorAll('.retry-btn').forEach(button => {
+        button.addEventListener('click', (e) => {
+            const step = parseInt(e.currentTarget.dataset.step);
+            const type = e.currentTarget.dataset.type || 'revenge';
+            const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+            currentStepContainer.querySelector('.failure-message').classList.add('hidden');
+        });
+    });
 
     updateLanguage(currentLang);
 });

@@ -8,15 +8,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700;900&family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-    <!-- Chosen Palette: Dusk to Dawn -->
-    <!-- Application Structure Plan: A branching narrative SPA. The linear storyboard is evolved into a choice-based structure. After the initial setup (Episode 1), the user is presented with a critical choice that determines the entire subsequent path (Path A: Confrontation vs. Path B: Rebirth/Revenge). This structure dramatically increases user agency and replayability, transforming the experience from passive viewing to active participation. -->
-    <!-- Visualization & Content Choices: Report Info -> Goal -> Viz/Presentation Method -> Interaction -> Justification -> Library/Method.
-        1. Critical Juncture -> Empower User -> Interactive Choice Buttons -> Click to select path -> Engages user directly in the narrative -> HTML/CSS/JS.
-        2. Story Branches -> Present alternate realities -> Dynamically shown/hidden content blocks -> JS state management -> Allows for complex, non-linear storytelling within a single page -> HTML/CSS/JS.
-        3. Retained Modals -> Provide evidence -> Clickable modals for chat/evidence -> Deepens immersion for each path -> HTML/CSS/JS.
-        4. Video Simulation -> Maximize dramatic impact -> Animated sequence in a modal with player controls -> Simulates a video playback for the climax -> HTML/CSS/JS.
-        This approach avoids SVG/Mermaid and uses conditional rendering logic to manage multiple story paths, creating a richer interactive experience. -->
-    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
     <style>
         body {
             font-family: 'Poppins', 'Noto Sans SC', sans-serif;
@@ -67,20 +58,6 @@
             max-width: 1000px;
             height: 70vh;
             max-height: 600px;
-        }
-        .evidence-item {
-            opacity: 0;
-            transform: translateY(20px);
-            animation: fadeIn 1s forwards;
-        }
-        .progress-bar-inner {
-            transition: width 1s linear;
-        }
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
         }
     </style>
 </head>
@@ -141,7 +118,6 @@
             </div>
         </section>
 
-        <!-- Story Branch A: Confrontation -->
         <div id="branch-a-content" class="hidden">
             <section id="path-a-ep2" class="py-16 md:py-24 space-y-8 story-section">
                 <h3 data-lang-key="path_a_ep2_title" class="text-3xl md:text-4xl font-bold text-center text-red-500"></h3>
@@ -158,66 +134,111 @@
             </section>
         </div>
 
-        <!-- Story Branch B: Rebirth and Revenge -->
         <div id="branch-b-content" class="hidden">
             <section id="episode-2" class="py-16 md:py-24 space-y-8 story-section">
                 <h3 data-lang-key="ep2_title" class="text-3xl md:text-4xl font-bold text-center text-sky-400"></h3>
                 <p data-lang-key="ep2_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
-                <div class="bg-gray-800/50 p-8 rounded-2xl shadow-xl mt-8">
-                    <div class="flex flex-col md:flex-row gap-8">
-                        <div class="flex-1">
-                            <h4 data-lang-key="ep2_card1_title" class="font-bold text-2xl mb-4"></h4>
-                            <p data-lang-key="ep2_card1_text" class="text-gray-400"></p>
-                        </div>
-                        <div class="flex-1 border-t-2 md:border-t-0 md:border-l-2 border-gray-700 pt-8 md:pt-0 md:pl-8">
-                            <h4 data-lang-key="ep2_card2_title" class="font-bold text-2xl mb-4"></h4>
-                            <p data-lang-key="ep2_card2_text" class="text-gray-400"></p>
-                        </div>
-                    </div>
-                </div>
             </section>
 
             <section id="episode-3" class="py-16 md:py-24 space-y-12 story-section">
                 <h3 data-lang-key="ep3_title" class="text-3xl md:text-4xl font-bold text-center text-red-500"></h3>
                 <p data-lang-key="ep3_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center pt-8">
-                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform">
-                        <div class="text-5xl mb-4">🍷</div>
-                        <h4 data-lang-key="ep3_card1_title" class="font-bold text-xl mb-2"></h4>
-                        <p data-lang-key="ep3_card1_text" class="text-gray-400"></p>
+
+                <div id="revenge-steps-container">
+                    <div id="revenge-step-1" class="text-center">
+                        <p data-lang-key="step1_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                        <div class="flex flex-col md:flex-row justify-center gap-6">
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="step1_choice_correct"></span></button>
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="step1_choice_incorrect"></span></button>
+                        </div>
+                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                            <p data-lang-key="step1_failure" class="mb-4"></p>
+                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1"><span data-lang-key="retry_button"></span></button>
+                        </div>
                     </div>
-                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform">
-                        <div class="text-5xl mb-4">🐭</div>
-                        <h4 data-lang-key="ep3_card2_title" class="font-bold text-xl mb-2"></h4>
-                        <p data-lang-key="ep3_card2_text" class="text-gray-400"></p>
+
+                    <div id="revenge-step-2" class="text-center hidden">
+                        <p data-lang-key="step2_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                        <div class="flex flex-col md:flex-row justify-center gap-6">
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="step2_choice_incorrect"></span></button>
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="step2_choice_correct"></span></button>
+                        </div>
+                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                            <p data-lang-key="step2_failure" class="mb-4"></p>
+                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2"><span data-lang-key="retry_button"></span></button>
+                        </div>
                     </div>
-                    <div class="bg-gray-800 p-6 rounded-xl shadow-lg transform hover:-translate-y-2 transition-transform">
-                        <div class="text-5xl mb-4">📹</div>
-                        <h4 data-lang-key="ep3_card3_title" class="font-bold text-xl mb-2"></h4>
-                        <p data-lang-key="ep3_card3_text" class="text-gray-400"></p>
+
+                    <div id="revenge-step-3" class="text-center hidden">
+                        <p data-lang-key="step3_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                        <div class="flex flex-col md:flex-row justify-center gap-6">
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="step3_choice_correct"></span></button>
+                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="step3_choice_incorrect"></span></button>
+                        </div>
+                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                            <p data-lang-key="step3_failure" class="mb-4"></p>
+                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3"><span data-lang-key="retry_button"></span></button>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <section id="episode-6" class="py-16 md:py-24 space-y-8 story-section">
-                <h3 data-lang-key="ep6_title" class="text-3xl md:text-4xl font-bold text-center text-purple-400"></h3>
-                <p data-lang-key="ep6_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
-                <div class="text-center pt-6">
-                    <button id="view-evidence-btn" data-lang-key="ep6_button" class="bg-purple-500 text-white font-bold py-3 px-8 rounded-full hover:bg-purple-600 transition-transform hover:scale-105 shadow-lg shadow-purple-500/20"></button>
-                </div>
-            </section>
+            <div id="path-b-final-content" class="hidden">
+                <section id="episode-6" class="py-16 md:py-24 space-y-12 story-section">
+                    <h3 data-lang-key="ep6_title" class="text-3xl md:text-4xl font-bold text-center text-purple-400"></h3>
+                    <p data-lang-key="ep6_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
 
-            <section id="episode-7" class="py-16 md:py-24 space-y-8 story-section">
-                <h3 data-lang-key="ep7_title" class="text-3xl md:text-4xl font-bold text-center text-yellow-300"></h3>
-                <p data-lang-key="ep7_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
-                <div class="flex justify-center pt-8">
-                    <div class="text-center p-8 bg-gray-800/50 rounded-2xl shadow-xl max-w-md">
-                        <div class="text-6xl mb-4">☀️</div>
-                        <h4 data-lang-key="ep7_card_title" class="font-bold text-2xl mb-2"></h4>
-                        <p data-lang-key="ep7_card_text" class="text-gray-400"></p>
+                    <div id="judgment-steps-container">
+                        <div id="judgment-step-1" class="text-center">
+                            <p data-lang-key="judgment1_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="judgment1_choice_correct"></span></button>
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="judgment1_choice_incorrect"></span></button>
+                            </div>
+                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                                <p data-lang-key="judgment1_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            </div>
+                        </div>
+                        <div id="judgment-step-2" class="text-center hidden">
+                            <p data-lang-key="judgment2_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="judgment2_choice_correct"></span></button>
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="judgment2_choice_incorrect"></span></button>
+                            </div>
+                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                                <p data-lang-key="judgment2_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            </div>
+                        </div>
+                        <div id="judgment-step-3" class="text-center hidden">
+                            <p data-lang-key="judgment3_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="judgment3_choice_incorrect"></span></button>
+                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="judgment3_choice_correct"></span></button>
+                            </div>
+                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
+                                <p data-lang-key="judgment3_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            </div>
+                        </div>
                     </div>
+                </section>
+
+                <div id="path-b-ending" class="hidden">
+                    <section id="episode-7" class="py-16 md:py-24 space-y-8 story-section">
+                        <h3 data-lang-key="ep7_title" class="text-3xl md:text-4xl font-bold text-center text-yellow-300"></h3>
+                        <p data-lang-key="ep7_subtitle" class="text-lg text-gray-300 max-w-3xl mx-auto text-center"></p>
+                        <div class="flex justify-center pt-8">
+                            <div class="text-center p-8 bg-gray-800/50 rounded-2xl shadow-xl max-w-md">
+                                <div class="text-6xl mb-4">☀️</div>
+                                <h4 data-lang-key="ep7_card_title" class="font-bold text-2xl mb-2"></h4>
+                                <p data-lang-key="ep7_card_text" class="text-gray-400"></p>
+                            </div>
+                        </div>
+                    </section>
                 </div>
-            </section>
+            </div>
         </div>
     </div>
 </main>
@@ -226,7 +247,6 @@
     <p data-lang-key="footer_text"></p>
 </footer>
 
-<!-- Chat Modal -->
 <div id="chat-modal" class="fixed inset-0 z-50 flex justify-center items-center p-4 modal-backdrop hidden">
     <div class="phone-screen flex flex-col overflow-hidden">
         <div class="bg-gray-200 p-3 flex items-center shadow-sm">
@@ -236,24 +256,6 @@
         <div id="chat-body" class="flex-1 p-4 space-y-3 overflow-y-auto flex flex-col bg-white">
         </div>
         <div class="bg-gray-200 p-2"></div>
-    </div>
-</div>
-
-<!-- Evidence "Video" Modal -->
-<div id="evidence-modal" class="fixed inset-0 z-50 flex justify-center items-center p-4 modal-backdrop hidden">
-    <div class="projector-screen flex flex-col relative overflow-hidden p-6 md:p-8 justify-between">
-        <button id="close-evidence-btn" class="absolute top-4 right-4 text-white text-3xl z-20">&times;</button>
-        <div id="evidence-content" class="w-full h-full flex flex-col justify-center items-center text-center space-y-4 md:space-y-6 overflow-hidden">
-        </div>
-        <div class="w-full mt-4">
-            <div class="flex justify-between items-center text-xs text-gray-400 mb-1">
-                <span id="video-status">▶ PLAYING</span>
-                <span id="video-timestamp">0:00 / 0:12</span>
-            </div>
-            <div class="w-full bg-gray-700 rounded-full h-1.5">
-                <div id="progress-bar" class="bg-purple-500 h-1.5 rounded-full" style="width: 0%"></div>
-            </div>
-        </div>
     </div>
 </div>
 
