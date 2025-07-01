@@ -137,7 +137,7 @@ document.addEventListener('DOMContentLoaded', () => {
             chat_log: [ { type: 'sent', text: "What's with the flower shop?" }, { type: 'sent', text: "And the money..." }, { type: 'received', text: "Lin Mo, let's break up." }, { type: 'received', text: "That money was a gift, a fund for our relationship. You gave it willingly." }, { type: 'sent', text: "You said we would get married." }, { type: 'received', text: "You're so naive. What can that little money do in this city?" }, { type: 'sent', text: "For you, I ate poorly for two years..." }, { type: 'received', text: "That's your own business. I didn't force you." }, { type: 'system', text: "You have been blocked by this user" } ]
         }
     };
-    let currentLang = 'zh';
+    let currentLang = 'en';
     const langToggleBtn = document.getElementById('lang-toggle-btn');
 
     function updateLanguage(lang) {
