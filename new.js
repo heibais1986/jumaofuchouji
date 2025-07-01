@@ -58,6 +58,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ep7_card_title: "新的猫生",
             ep7_card_text: "他不再是复仇的鬼魂，他是一只被爱着的、有家的猫。在苏晚温暖的怀抱里，他发出了满足的、响亮的呼噜声。窗外，新月明亮，照亮了前路。",
             footer_text: "一个故事的结束，是另一个故事的开始。",
+            support_title: "喜欢这个故事吗？",
+            support_subtitle: "如果《橘猫重生复仇记》打动了您，不妨请作者喝杯咖啡，支持后续的创作！您的每一份支持，都是故事得以延续的动力。",
+            support_paypal: "通过 PayPal 支持",
+            support_coffee: "请我喝杯咖啡",
+            support_qrcode_title: "或者，您也可以通过二维码支持：",
+            support_wechat: "微信支付",
+            support_alipay: "支付宝",
             chat_header: "谭欣",
             chat_log: [ { type: 'sent', text: "花店是怎么回事？" }, { type: 'sent', text: "那些钱……" }, { type: 'received', text: "林默，我们分手吧。" }, { type: 'received', text: "那些钱，是你自愿给我的，算是我们谈恋爱期间的共同基金。" }, { type: 'sent', text: "你说过要结婚的。" }, { type: 'received', text: "你太幼稚了，那点钱在重庆能做什么？" }, { type: 'sent', text: "我为了你，两年没吃过一顿好的……" }, { type: 'received', text: "那是你自己的事，我没逼你。" }, { type: 'system', text: "你已被对方拉黑" } ]
         },
@@ -119,6 +126,13 @@ document.addEventListener('DOMContentLoaded', () => {
             ep7_card_title: "A New Feline Life",
             ep7_card_text: "He was no longer a ghost of vengeance, but a beloved cat with a home. In Su Wan's warm embrace, he purred with contentment. Outside, the new moon was bright, illuminating the path ahead.",
             footer_text: "The end of one story is the beginning of another.",
+            support_title: "Enjoyed the story?",
+            support_subtitle: "If 'The Reborn Cat's Revenge' moved you, consider buying the author a coffee to support future creations! Every bit of your support fuels the continuation of stories like this.",
+            support_paypal: "Support with PayPal",
+            support_coffee: "Buy Me a Coffee",
+            support_qrcode_title: "Or, you can support via QR code:",
+            support_wechat: "WeChat Pay",
+            support_alipay: "Alipay",
             chat_header: "Tan Xin",
             chat_log: [ { type: 'sent', text: "What's with the flower shop?" }, { type: 'sent', text: "And the money..." }, { type: 'received', text: "Lin Mo, let's break up." }, { type: 'received', text: "That money was a gift, a fund for our relationship. You gave it willingly." }, { type: 'sent', text: "You said we would get married." }, { type: 'received', text: "You're so naive. What can that little money do in this city?" }, { type: 'sent', text: "For you, I ate poorly for two years..." }, { type: 'received', text: "That's your own business. I didn't force you." }, { type: 'system', text: "You have been blocked by this user" } ]
         }
