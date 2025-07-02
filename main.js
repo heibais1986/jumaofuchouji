@@ -1,1 +1,269 @@
-function _0x1fc1(_0x1aca07,_0x4386de){const _0x11cafc=_0x11ca();return _0x1fc1=function(_0x1fc1c7,_0x1bb97b){_0x1fc1c7=_0x1fc1c7-0x164;let _0x152478=_0x11cafc[_0x1fc1c7];return _0x152478;},_0x1fc1(_0x1aca07,_0x4386de);}const _0x536272=_0x1fc1;(function(_0x3f4cf9,_0x4166fa){const _0x13deec=_0x1fc1,_0x587101=_0x3f4cf9();while(!![]){try{const _0x5363ed=-parseInt(_0x13deec(0x260))/0x1+-parseInt(_0x13deec(0x2dc))/0x2*(parseInt(_0x13deec(0x388))/0x3)+parseInt(_0x13deec(0x2b7))/0x4*(-parseInt(_0x13deec(0x365))/0x5)+-parseInt(_0x13deec(0x26f))/0x6+parseInt(_0x13deec(0x2f3))/0x7+parseInt(_0x13deec(0x3b8))/0x8*(parseInt(_0x13deec(0x38f))/0x9)+parseInt(_0x13deec(0x210))/0xa*(parseInt(_0x13deec(0x257))/0xb);if(_0x5363ed===_0x4166fa)break;else _0x587101['push'](_0x587101['shift']());}catch(_0x48623f){_0x587101['push'](_0x587101['shift']());}}}(_0x11ca,0xeda0d),document[_0x536272(0x201)+_0x536272(0x289)](_0x536272(0x16f)+_0x536272(0x3d8),()=>{const _0x3163e4=_0x536272,_0x55b5ed={'zh':{'app_title':'橘猫重生复仇记','nav_abyss':'深渊','nav_choice':'抉择','hero_title':_0x3163e4(0x2d3),'hero_subtitle':'一个关于背叛与重生的'+_0x3163e4(0x26a)+_0x3163e4(0x184),'ep1_title':_0x3163e4(0x169),'ep1_subtitle':_0x3163e4(0x1cd)+'用他的青春和健康换来'+_0x3163e4(0x2d0)+'庆江边的一阵风。他为'+_0x3163e4(0x367)+_0x3163e4(0x340)+'他人生的最后一餐。','ep1_card1_title':'卑微的梦','ep1_card1_text':_0x3163e4(0x1fd)+_0x3163e4(0x341)+'：‘再等等，等我凑够'+_0x3163e4(0x290)+_0x3163e4(0x28b)+'。’这是他对抗全世界'+_0x3163e4(0x271),'ep1_card2_title':_0x3163e4(0x372),'ep1_card2_text':'他等来的不是未婚妻，'+_0x3163e4(0x3e9)+_0x3163e4(0x1de)+_0x3163e4(0x2df)+_0x3163e4(0x3c2)+_0x3163e4(0x31a)+'笑话般的人生。','ep1_button':_0x3163e4(0x18b),'choice_title':'命运的十字路口','choice_subtitle':'站在江边，万念俱灰的'+_0x3163e4(0x379)+_0x3163e4(0x37b)+_0x3163e4(0x3d6),'choice_a_text':'当面对质','choice_b_text':_0x3163e4(0x17c),'choice_reset_button':_0x3163e4(0x324),'path_a_ep2_title':_0x3163e4(0x3af),'path_a_ep2_subtitle':_0x3163e4(0x34a)+_0x3163e4(0x2c4)+_0x3163e4(0x358)+_0x3163e4(0x2bf)+_0x3163e4(0x28f)+_0x3163e4(0x3a2)+_0x3163e4(0x272),'path_a_ep3_title':_0x3163e4(0x2e8),'path_a_ep3_subtitle':'电话挂断，世界重归死'+_0x3163e4(0x393)+_0x3163e4(0x2c1)+'入江底。第二天，新闻'+_0x3163e4(0x224)+_0x3163e4(0x2d7)+_0x3163e4(0x213)+_0x3163e4(0x18d),'ep2_title':'B-2:\x20新生','ep2_subtitle':_0x3163e4(0x23e)+_0x3163e4(0x327)+_0x3163e4(0x1f5)+_0x3163e4(0x328)+_0x3163e4(0x18f)+_0x3163e4(0x1d3)+'。','ep3_title':_0x3163e4(0x34d),'ep3_subtitle':_0x3163e4(0x354)+_0x3163e4(0x203)+_0x3163e4(0x319)+'那个卑微的林默，而是'+'藏在暗处，操纵一切的'+_0x3163e4(0x2f2),'step1_desc':'第一步：扰乱。晚宴是'+_0x3163e4(0x32e)+_0x3163e4(0x37c)+_0x3163e4(0x1a0)+_0x3163e4(0x356),'step1_choice_correct':'绊倒她，让她当众出丑','step1_choice_incorrect':'直接冲上台，抓挠谭欣','step1_failure':_0x3163e4(0x26b)+'引起了骚乱，但很快被'+_0x3163e4(0x291)+'了惊吓，却博取了同情'+'。计划失败。','step2_desc':_0x3163e4(0x2f7)+_0x3163e4(0x3d0)+_0x3163e4(0x30c)+_0x3163e4(0x164)+'定留下一个“惊喜”。','step2_choice_incorrect':_0x3163e4(0x218),'step2_choice_correct':_0x3163e4(0x3e7)+'鼠','step2_failure':_0x3163e4(0x34b)+'了金钱损失，谭欣很快'+_0x3163e4(0x3cc)+_0x3163e4(0x323)+'击。','step3_desc':_0x3163e4(0x287)+_0x3163e4(0x1ec)+_0x3163e4(0x273)+_0x3163e4(0x1b3)+_0x3163e4(0x38e),'step3_choice_correct':_0x3163e4(0x3bc)+'内容','step3_choice_incorrect':'把手机叼走藏起来','step3_failure':'失败！你成功藏起了手'+'机，但谭欣很快通过定'+_0x3163e4(0x1c9)+_0x3163e4(0x1d8)+'。','retry_button':_0x3163e4(0x1ee),'ep6_title':_0x3163e4(0x1d7),'ep6_subtitle':_0x3163e4(0x2d1)+_0x3163e4(0x1d4)+_0x3163e4(0x3b3)+'，殊不知，这将是她坠'+_0x3163e4(0x1a2)+_0x3163e4(0x212),'judgment1_desc':_0x3163e4(0x1fb)+'入后台，找到了控制投'+_0x3163e4(0x3dc)+'办法把存有证据的U盘'+'插进去。他该怎么做？','judgment1_choice_correct':_0x3163e4(0x3e8)+_0x3163e4(0x23f),'judgment1_choice_incorrect':_0x3163e4(0x282)+'作','judgment1_failure':_0x3163e4(0x173)+_0x3163e4(0x303)+_0x3163e4(0x23c)+_0x3163e4(0x204),'judgment2_desc':_0x3163e4(0x37e)+'！谭欣正在台上演讲。'+'现在，你来决定第一张'+_0x3163e4(0x345)+_0x3163e4(0x34f),'judgment2_choice_correct':_0x3163e4(0x3bb)+_0x3163e4(0x25b),'judgment2_choice_incorrect':_0x3163e4(0x377)+'记录','judgment2_failure':_0x3163e4(0x3c8)+_0x3163e4(0x239)+_0x3163e4(0x2c5)+_0x3163e4(0x353),'judgment3_desc':'第三步：终结。现场已'+_0x3163e4(0x242)+'后一击！用什么来彻底'+_0x3163e4(0x2a0),'judgment3_choice_correct':_0x3163e4(0x19f)+'图','judgment3_choice_incorrect':'循环播放她的聊天记录','judgment3_failure':_0x3163e4(0x2a3)+'对她无比鄙夷，但缺乏'+_0x3163e4(0x252)+'混乱中溜走。','ep7_title':_0x3163e4(0x383),'ep7_subtitle':_0x3163e4(0x1bc)+'焰终归熄灭。他没有感'+_0x3163e4(0x33d)+_0x3163e4(0x30a)+_0x3163e4(0x2d5)+'样，享受一餐美味的金'+'枪鱼罐头。','ep7_card_title':_0x3163e4(0x384),'ep7_card_text':'他不再是复仇的鬼魂，'+_0x3163e4(0x274)+_0x3163e4(0x3b7)+_0x3163e4(0x200)+'的、响亮的呼噜声。窗'+_0x3163e4(0x1ac)+_0x3163e4(0x2e2),'footer_text':_0x3163e4(0x3e4)+'一个故事的开始。','support_title':_0x3163e4(0x32c),'support_subtitle':_0x3163e4(0x298)+_0x3163e4(0x1f8)+_0x3163e4(0x315)+'的创作！您的每一份支'+'持，都是故事得以延续'+_0x3163e4(0x380),'support_paypal':'通过\x20PayPal\x20'+'支持','support_coffee':_0x3163e4(0x1be),'support_qrcode_title':'或者，您也可以通过二'+'维码支持：','support_wechat':'微信支付','support_alipay':'支付宝','chat_header':'谭欣','chat_log':[{'type':'sent','text':_0x3163e4(0x306)},{'type':_0x3163e4(0x31c),'text':'那些钱……'},{'type':_0x3163e4(0x3d3),'text':'林默，我们分手吧。'},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x35c)+'的，算是我们谈恋爱期'+_0x3163e4(0x1e7)},{'type':_0x3163e4(0x31c),'text':'你说过要结婚的。'},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x296)+_0x3163e4(0x284)},{'type':_0x3163e4(0x31c),'text':_0x3163e4(0x3e2)+_0x3163e4(0x2fb)},{'type':'received','text':_0x3163e4(0x279)+_0x3163e4(0x386)},{'type':_0x3163e4(0x20e),'text':_0x3163e4(0x265)}]},'en':{'app_title':_0x3163e4(0x35d)+_0x3163e4(0x196)+'enge','nav_abyss':_0x3163e4(0x192),'nav_choice':_0x3163e4(0x2e4),'hero_title':_0x3163e4(0x28a)+_0x3163e4(0x2d8)+_0x3163e4(0x236)+'me\x20of\x20Reve'+'nge','hero_subtitle':_0x3163e4(0x277)+_0x3163e4(0x352)+_0x3163e4(0x1ff)+_0x3163e4(0x1ad)+_0x3163e4(0x20c)+_0x3163e4(0x27f)+_0x3163e4(0x17a),'ep1_title':'Episode\x201:'+_0x3163e4(0x2ad),'ep1_subtitle':_0x3163e4(0x21c)+'\x20510,000\x20y'+'uan—a\x20figu'+_0x3163e4(0x187)+'with\x20his\x20y'+_0x3163e4(0x2f4)+'ealth,\x20ult'+_0x3163e4(0x293)+_0x3163e4(0x262)+_0x3163e4(0x368)+_0x3163e4(0x261)+'ongqing\x20ri'+_0x3163e4(0x16d)+_0x3163e4(0x3eb)+_0x3163e4(0x361)+_0x3163e4(0x24b)+_0x3163e4(0x16c)+_0x3163e4(0x369)+_0x3163e4(0x3cb)+_0x3163e4(0x362)+_0x3163e4(0x1f2),'ep1_card1_title':_0x3163e4(0x3c5)+_0x3163e4(0x194),'ep1_card1_text':'In\x20a\x20sunle'+_0x3163e4(0x366)+_0x3163e4(0x3da)+_0x3163e4(0x33b)+'t:\x20\x27Just\x20a'+_0x3163e4(0x3bd)+'nger,\x20when'+'\x20I\x20have\x20en'+_0x3163e4(0x1bd)+'\x20open\x20her\x20'+_0x3163e4(0x294)+_0x3163e4(0x1b5)+_0x3163e4(0x3d4)+_0x3163e4(0x299)+'rried.\x27\x20Th'+_0x3163e4(0x316)+_0x3163e4(0x2e7)+_0x3163e4(0x198)+_0x3163e4(0x22a)+'g.','ep1_card2_title':_0x3163e4(0x378)+_0x3163e4(0x240),'ep1_card2_text':_0x3163e4(0x2f8)+_0x3163e4(0x22d)+_0x3163e4(0x3c7)+_0x3163e4(0x1f1)+'\x20the\x20jarri'+'ng\x20sight\x20o'+_0x3163e4(0x1a5)+_0x3163e4(0x3b5)+_0x3163e4(0x16a)+_0x3163e4(0x3a1)+_0x3163e4(0x304)+_0x3163e4(0x2b5)+_0x3163e4(0x375)+_0x3163e4(0x2f0)+'Willingly\x20'+'Gifted\x27,\x20h'+'e\x20leaped\x20i'+'nto\x20the\x20co'+_0x3163e4(0x2fc)+_0x3163e4(0x2c9)+_0x3163e4(0x370)+_0x3163e4(0x2c2),'ep1_button':_0x3163e4(0x263)+'ast\x20Chat','choice_title':_0x3163e4(0x181)+_0x3163e4(0x1a3),'choice_subtitle':_0x3163e4(0x38d)+'y\x20the\x20rive'+_0x3163e4(0x392)+_0x3163e4(0x332)+_0x3163e4(0x3e6)+_0x3163e4(0x39c)+'lashes\x20thr'+_0x3163e4(0x1b2)+_0x3163e4(0x220)+_0x3163e4(0x387)+_0x3163e4(0x394)+_0x3163e4(0x390)+'.','choice_a_text':_0x3163e4(0x334)+_0x3163e4(0x223)+'y','choice_b_text':_0x3163e4(0x3ac)+'\x20Take\x20Reve'+_0x3163e4(0x2e9),'choice_reset_button':_0x3163e4(0x166)+_0x3163e4(0x19b)+'n','path_a_ep2_title':_0x3163e4(0x228)+_0x3163e4(0x2cc)+_0x3163e4(0x2e3),'path_a_ep2_subtitle':_0x3163e4(0x195)+_0x3163e4(0x2ae)+'of\x20strengt'+_0x3163e4(0x230)+'ed\x20Tan\x20Xin'+',\x20hysteric'+_0x3163e4(0x2bb)+_0x3163e4(0x16e)+_0x3163e4(0x178)+'he\x20other\x20e'+_0x3163e4(0x2ec)+_0x3163e4(0x216)+_0x3163e4(0x253)+_0x3163e4(0x269)+_0x3163e4(0x18e)+_0x3163e4(0x221)+_0x3163e4(0x225)+_0x3163e4(0x2ed)+_0x3163e4(0x25f)+_0x3163e4(0x2fa)+'\x20His\x20digni'+_0x3163e4(0x19c)+_0x3163e4(0x2da)+'ed.','path_a_ep3_title':_0x3163e4(0x2f9)+'A\x20Silent\x20D'+_0x3163e4(0x2a5)+'ce','path_a_ep3_subtitle':_0x3163e4(0x2a8)+'nded,\x20and\x20'+'the\x20world\x20'+_0x3163e4(0x281)+_0x3163e4(0x29a)+'ilence.\x20He'+'\x20had\x20lost\x20'+_0x3163e4(0x185)+_0x3163e4(0x22b)+_0x3163e4(0x2d4)+_0x3163e4(0x35f)+'sank\x20to\x20th'+_0x3163e4(0x2e6)+_0x3163e4(0x3ed)+'r.\x20The\x20nex'+_0x3163e4(0x1e8)+'\x20news\x20repo'+_0x3163e4(0x18a)+_0x3163e4(0x1a7)+_0x3163e4(0x339)+_0x3163e4(0x251)+_0x3163e4(0x1f6)+_0x3163e4(0x2c7)+'r\x20remember'+'ed\x20his\x20sto'+_0x3163e4(0x172),'ep2_title':'B-2:\x20Rebir'+'th','ep2_subtitle':_0x3163e4(0x39b)+'ess\x20re-for'+_0x3163e4(0x176)+_0x3163e4(0x20b)+'found\x20hims'+'elf\x20trappe'+_0x3163e4(0x36c)+_0x3163e4(0x29f)+'\x20became\x20th'+_0x3163e4(0x20d)+'at\x20Yuanbao'+_0x3163e4(0x3d1)+_0x3163e4(0x351)+_0x3163e4(0x395)+_0x3163e4(0x243)+_0x3163e4(0x2a7)+'wait\x20in\x20a\x20'+'brand\x20new\x20'+_0x3163e4(0x211),'ep3_title':_0x3163e4(0x1c0)+_0x3163e4(0x1b0)+_0x3163e4(0x2dd),'ep3_subtitle':_0x3163e4(0x214)+'usly\x20plann'+'ed\x20revenge'+_0x3163e4(0x244)+_0x3163e4(0x2b2)+_0x3163e4(0x24e)+'\x20weak\x20poin'+_0x3163e4(0x3ba)+_0x3163e4(0x333)+_0x3163e4(0x301)+_0x3163e4(0x3dd)+_0x3163e4(0x3a7)+'d\x20of\x20venge'+_0x3163e4(0x226)+_0x3163e4(0x27e)+'ings\x20from\x20'+_0x3163e4(0x1fa)+'s.','step1_desc':'Step\x201:\x20Di'+_0x3163e4(0x1f0)+'The\x20gala\x20i'+_0x3163e4(0x305)+_0x3163e4(0x320)+_0x3163e4(0x1b9)+_0x3163e4(0x347)+_0x3163e4(0x3e3)+_0x3163e4(0x2de)+_0x3163e4(0x237)+_0x3163e4(0x24e)+_0x3163e4(0x3a8)+_0x3163e4(0x2fd)+'at\x20should\x20'+'he\x20do?','step1_choice_correct':_0x3163e4(0x2b3)+_0x3163e4(0x270)+_0x3163e4(0x1c1)+_0x3163e4(0x385),'step1_choice_incorrect':'Rush\x20onto\x20'+_0x3163e4(0x2eb)+_0x3163e4(0x2b1)+_0x3163e4(0x317),'step1_failure':'Failed!\x20Th'+_0x3163e4(0x18c)+_0x3163e4(0x2cd)+'ed\x20a\x20commo'+_0x3163e4(0x219)+_0x3163e4(0x278)+_0x3163e4(0x1a4)+'y\x20security'+'.\x20Tan\x20Xin,'+_0x3163e4(0x3a3)+_0x3163e4(0x1b8)+_0x3163e4(0x25e)+_0x3163e4(0x322)+_0x3163e4(0x37d)+_0x3163e4(0x2b8),'step2_desc':'Step\x202:\x20In'+_0x3163e4(0x2b0)+'.\x20Tan\x20Xin\x20'+_0x3163e4(0x1c4)+'pating\x20in\x20'+_0x3163e4(0x312)+_0x3163e4(0x337)+'ition,\x20a\x20g'+'reat\x20chanc'+_0x3163e4(0x3b6)+'e\x20her\x20care'+'er.\x20Yuanba'+'o\x20sneaks\x20i'+_0x3163e4(0x2ce)+_0x3163e4(0x175)+_0x3163e4(0x26c)+_0x3163e4(0x1eb)+'\x20a\x20\x27surpri'+_0x3163e4(0x32a),'step2_choice_incorrect':_0x3163e4(0x259)+_0x3163e4(0x2af)+_0x3163e4(0x23d),'step2_choice_correct':'Place\x20a\x20de'+_0x3163e4(0x170)+_0x3163e4(0x27c)+_0x3163e4(0x357),'step2_failure':_0x3163e4(0x3ec)+_0x3163e4(0x229)+'r\x20vases\x20on'+_0x3163e4(0x1c8)+_0x3163e4(0x33e)+_0x3163e4(0x330)+'h\x20she\x20quic'+_0x3163e4(0x396)+_0x3163e4(0x2ab)+_0x3163e4(0x1f3)+'n\x20caused\x20n'+_0x3163e4(0x264)+_0x3163e4(0x397),'step3_desc':'Step\x203:\x20Ev'+_0x3163e4(0x318)+_0x3163e4(0x183)+_0x3163e4(0x17e)+_0x3163e4(0x2ba)+_0x3163e4(0x2bc)+'hich\x20conta'+_0x3163e4(0x338)+_0x3163e4(0x39e)+_0x3163e4(0x35e)+'\x20moment\x20to'+_0x3163e4(0x2b4)+'al\x20evidenc'+'e.','step3_choice_correct':_0x3163e4(0x309)+'llar\x20camer'+_0x3163e4(0x268)+'d\x20the\x20phon'+_0x3163e4(0x1a1),'step3_choice_incorrect':_0x3163e4(0x297)+'\x20phone\x20and'+_0x3163e4(0x1ea),'step3_failure':_0x3163e4(0x1d2)+_0x3163e4(0x238)+_0x3163e4(0x35a)+_0x3163e4(0x20a)+_0x3163e4(0x381)+_0x3163e4(0x36d)+_0x3163e4(0x17f)+_0x3163e4(0x285)+'You\x20not\x20on'+_0x3163e4(0x314)+_0x3163e4(0x1e6)+_0x3163e4(0x23a)+_0x3163e4(0x22c)+_0x3163e4(0x3d9),'retry_button':_0x3163e4(0x246),'ep6_title':_0x3163e4(0x1e4)+_0x3163e4(0x326),'ep6_subtitle':_0x3163e4(0x24d)+_0x3163e4(0x19d)+_0x3163e4(0x3a9)+_0x3163e4(0x30f)+'\x20Tan\x20Xin\x27s'+_0x3163e4(0x3e1)+_0x3163e4(0x21f)+_0x3163e4(0x1f9)+'her\x20story\x20'+_0x3163e4(0x2a9)+_0x3163e4(0x2c0)+_0x3163e4(0x32b)+_0x3163e4(0x1c3)+'e\x20start\x20of'+_0x3163e4(0x275)+_0x3163e4(0x30d)+_0x3163e4(0x33a)+_0x3163e4(0x373)+_0x3163e4(0x389)+'this\x20final'+'e.','judgment1_desc':_0x3163e4(0x1b4)+_0x3163e4(0x2f1)+_0x3163e4(0x3b4)+'\x20backstage'+_0x3163e4(0x3ca)+'\x20the\x20lapto'+_0x3163e4(0x1a9)+'ing\x20the\x20pr'+_0x3163e4(0x31f)+_0x3163e4(0x2bd)+'d\x20a\x20way\x20to'+_0x3163e4(0x1b6)+'he\x20USB\x20dri'+'ve\x20with\x20th'+'e\x20evidence'+_0x3163e4(0x288)+_0x3163e4(0x292),'judgment1_choice_correct':_0x3163e4(0x33f)+_0x3163e4(0x3c0)+_0x3163e4(0x36e)+_0x3163e4(0x2d2)+_0x3163e4(0x1ef),'judgment1_choice_incorrect':'Jump\x20on\x20th'+_0x3163e4(0x19a)+_0x3163e4(0x382)+_0x3163e4(0x374)+_0x3163e4(0x21b),'judgment1_failure':_0x3163e4(0x1d2)+_0x3163e4(0x191)+_0x3163e4(0x3aa)+_0x3163e4(0x34c)+'st\x20messing'+_0x3163e4(0x325)+_0x3163e4(0x1aa)+'\x20carried\x20a'+_0x3163e4(0x376)+_0x3163e4(0x2c6)+_0x3163e4(0x24f)+_0x3163e4(0x280)+'chance.','judgment2_desc':_0x3163e4(0x205)+_0x3163e4(0x3df)+_0x3163e4(0x307)+_0x3163e4(0x3ab)+_0x3163e4(0x3db)+_0x3163e4(0x37f)+'stage.\x20Now'+_0x3163e4(0x207)+_0x3163e4(0x248)+_0x3163e4(0x38b)+'\x20play.\x20Wha'+'t\x20will\x20you'+_0x3163e4(0x190)+_0x3163e4(0x25c)+_0x3163e4(0x2ee),'judgment2_choice_correct':_0x3163e4(0x391)+'hat\x20logs\x20w'+_0x3163e4(0x1c7)+_0x3163e4(0x1ab)+'rs\x27\x20first','judgment2_choice_incorrect':_0x3163e4(0x241)+_0x3163e4(0x1cb)+'0,000\x20yuan'+_0x3163e4(0x3d7)+_0x3163e4(0x1e2),'judgment2_failure':_0x3163e4(0x3c9)+_0x3163e4(0x1fc)+'in\x20claimed'+_0x3163e4(0x1e9)+_0x3163e4(0x349)+_0x3163e4(0x247)+_0x3163e4(0x24a)+'she\x20stabil'+_0x3163e4(0x1a8)+'ituation\x20a'+_0x3163e4(0x343)+_0x3163e4(0x2a2)+_0x3163e4(0x32f),'judgment3_desc':'Step\x203:\x20Th'+'e\x20Finale.\x20'+_0x3163e4(0x26e)+'is\x20in\x20an\x20u'+_0x3163e4(0x3d5)+_0x3163e4(0x249)+_0x3163e4(0x300)+'eeded!\x20Wha'+_0x3163e4(0x1ca)+_0x3163e4(0x21d)+_0x3163e4(0x359)+_0x3163e4(0x254)+'letely?','judgment3_choice_correct':_0x3163e4(0x31b)+_0x3163e4(0x3de)+_0x3163e4(0x348)+_0x3163e4(0x208)+'burger','judgment3_choice_incorrect':_0x3163e4(0x232)+_0x3163e4(0x227)+_0x3163e4(0x1a6)+_0x3163e4(0x245),'judgment3_failure':_0x3163e4(0x360)+_0x3163e4(0x29b)+_0x3163e4(0x346)+_0x3163e4(0x250)+_0x3163e4(0x295)+_0x3163e4(0x1dd)+_0x3163e4(0x308)+'l\x20blow\x20giv'+_0x3163e4(0x233)+_0x3163e4(0x2cb)+'lip\x20away\x20i'+_0x3163e4(0x35b)+'s.','ep7_title':_0x3163e4(0x350)+_0x3163e4(0x1dc)+'ne','ep7_subtitle':_0x3163e4(0x19e)+_0x3163e4(0x1e5)+_0x3163e4(0x31d)+_0x3163e4(0x2a1)+_0x3163e4(0x1cc)+_0x3163e4(0x355)+_0x3163e4(0x202)+_0x3163e4(0x34e)+_0x3163e4(0x2ef)+_0x3163e4(0x22e)+_0x3163e4(0x3b2)+_0x3163e4(0x3c6)+_0x3163e4(0x2fe)+'ly\x20enjoy\x20a'+'\x20delicious'+_0x3163e4(0x3ee)+_0x3163e4(0x342)+'\x20real\x20cat.','ep7_card_title':_0x3163e4(0x2ff)+_0x3163e4(0x1f7),'ep7_card_text':_0x3163e4(0x234)+_0x3163e4(0x180)+_0x3163e4(0x1df)+'ngeance,\x20b'+_0x3163e4(0x2ea)+_0x3163e4(0x28e)+_0x3163e4(0x256)+_0x3163e4(0x168)+_0x3163e4(0x364)+_0x3163e4(0x33c)+_0x3163e4(0x38c)+_0x3163e4(0x3a6)+_0x3163e4(0x267)+'e,\x20the\x20new'+_0x3163e4(0x3ce)+_0x3163e4(0x3e0)+'luminating'+'\x20the\x20path\x20'+_0x3163e4(0x2c3),'footer_text':'The\x20end\x20of'+'\x20one\x20story'+'\x20is\x20the\x20be'+_0x3163e4(0x310)+'\x20another.','support_title':_0x3163e4(0x1c2)+_0x3163e4(0x222),'support_subtitle':_0x3163e4(0x276)+_0x3163e4(0x39a)+'\x20Revenge\x27\x20'+_0x3163e4(0x36f)+_0x3163e4(0x1e0)+_0x3163e4(0x2db)+'\x20author\x20a\x20'+_0x3163e4(0x344)+_0x3163e4(0x28d)+_0x3163e4(0x1db)+_0x3163e4(0x2e5)+_0x3163e4(0x1ce)+_0x3163e4(0x21a)+'t\x20fuels\x20th'+'e\x20continua'+_0x3163e4(0x3cf)+_0x3163e4(0x1d6)+_0x3163e4(0x31e),'support_paypal':'Support\x20wi'+'th\x20PayPal','support_coffee':_0x3163e4(0x2ac)+'offee','support_qrcode_title':_0x3163e4(0x2f6)+'n\x20support\x20'+_0x3163e4(0x199)+'e:','support_wechat':_0x3163e4(0x1c6),'support_alipay':_0x3163e4(0x36a),'chat_header':_0x3163e4(0x1b1),'chat_log':[{'type':_0x3163e4(0x31c),'text':_0x3163e4(0x1da)+_0x3163e4(0x30b)+_0x3163e4(0x25a)},{'type':_0x3163e4(0x31c),'text':'And\x20the\x20mo'+_0x3163e4(0x215)},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x167)+'t\x27s\x20break\x20'+'up.'},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x23b)+_0x3163e4(0x286)+'t,\x20a\x20fund\x20'+'for\x20our\x20re'+_0x3163e4(0x231)+_0x3163e4(0x313)+_0x3163e4(0x27d)+_0x3163e4(0x3b1)},{'type':_0x3163e4(0x31c),'text':_0x3163e4(0x3d2)+_0x3163e4(0x27b)+_0x3163e4(0x3a4)},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x363)+_0x3163e4(0x179)+_0x3163e4(0x1d0)+'\x20little\x20mo'+_0x3163e4(0x1c5)+'this\x20city?'},{'type':_0x3163e4(0x31c),'text':_0x3163e4(0x26d)+_0x3163e4(0x2aa)+_0x3163e4(0x27a)+_0x3163e4(0x1d1)},{'type':_0x3163e4(0x3d3),'text':_0x3163e4(0x3be)+'r\x20own\x20busi'+_0x3163e4(0x2cf)+_0x3163e4(0x22f)+_0x3163e4(0x174)},{'type':_0x3163e4(0x20e),'text':_0x3163e4(0x2c8)+_0x3163e4(0x3ea)+'d\x20by\x20this\x20'+_0x3163e4(0x171)}]}};let _0x54050c='zh';const _0x279415=document['getElement'+_0x3163e4(0x321)]('lang-toggl'+_0x3163e4(0x182));function _0x1ca5c4(_0x30e7bc){const _0x210953=_0x3163e4;document[_0x210953(0x3ad)+'torAll'](_0x210953(0x36b)+_0x210953(0x29e))[_0x210953(0x21e)](_0x18f7a1=>{const _0x1088f5=_0x210953,_0x2c59c7=_0x18f7a1['dataset'][_0x1088f5(0x2e1)];_0x55b5ed[_0x30e7bc]&&_0x55b5ed[_0x30e7bc][_0x2c59c7]&&(_0x18f7a1[_0x1088f5(0x32d)+'t']=_0x55b5ed[_0x30e7bc][_0x2c59c7]);}),document[_0x210953(0x1b7)+'ement'][_0x210953(0x335)]=_0x30e7bc,_0x279415[_0x210953(0x32d)+'t']=_0x30e7bc==='zh'?'EN':'中文';}_0x279415[_0x3163e4(0x201)+'stener'](_0x3163e4(0x1e1),()=>{_0x54050c=_0x54050c==='zh'?'en':'zh',_0x1ca5c4(_0x54050c);});const _0x3eb50b=document[_0x3163e4(0x3ad)+_0x3163e4(0x2e0)](_0x3163e4(0x197)+_0x3163e4(0x283)),_0x570c67=new IntersectionObserver(_0x15ad9c=>{_0x15ad9c['forEach'](_0xf7da5a=>{const _0x1f02cb=_0x1fc1;_0xf7da5a[_0x1f02cb(0x3c4)+_0x1f02cb(0x17d)]&&_0xf7da5a[_0x1f02cb(0x329)][_0x1f02cb(0x3a0)][_0x1f02cb(0x398)](_0x1f02cb(0x217));});},{'threshold':0.1});_0x3eb50b[_0x3163e4(0x21e)](_0x13ef04=>{const _0x76987e=_0x3163e4;_0x570c67[_0x76987e(0x1af)](_0x13ef04);});const _0x5a1b60=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x30e)),_0x4f2809=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x1f4)+'btn'),_0x15ecea=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x1d5)+'-btn'),_0x2ffdfd=document['getElement'+_0x3163e4(0x321)](_0x3163e4(0x2ca)+'r'),_0x589be8=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x336)),_0x503524=()=>{const _0x5aea3d=_0x3163e4;_0x2ffdfd[_0x5aea3d(0x32d)+'t']=_0x55b5ed[_0x54050c][_0x5aea3d(0x38a)+'r'],_0x589be8[_0x5aea3d(0x3ae)]='',_0x55b5ed[_0x54050c]['chat_log'][_0x5aea3d(0x21e)](_0x2e352f=>{const _0x2ffb12=_0x5aea3d,_0x2fd8f8=document[_0x2ffb12(0x266)+_0x2ffb12(0x17b)](_0x2ffb12(0x2b9));_0x2e352f[_0x2ffb12(0x1ed)]===_0x2ffb12(0x20e)?(_0x2fd8f8[_0x2ffb12(0x1fe)]=_0x2ffb12(0x39f)+'-center\x20ju'+_0x2ffb12(0x16b)+_0x2ffb12(0x3cd),_0x2fd8f8[_0x2ffb12(0x3ae)]='<span\x20clas'+_0x2ffb12(0x206)+'\x20text-gray'+_0x2ffb12(0x188)+'ay-200\x20px-'+_0x2ffb12(0x186)+_0x2ffb12(0x1ba)+'>'+_0x2e352f[_0x2ffb12(0x28c)]+_0x2ffb12(0x2f5)):(_0x2fd8f8['className']=_0x2ffb12(0x302)+'e\x20'+(_0x2e352f['type']===_0x2ffb12(0x31c)?_0x2ffb12(0x1ae):_0x2ffb12(0x20f)+_0x2ffb12(0x1bb)),_0x2fd8f8[_0x2ffb12(0x32d)+'t']=_0x2e352f[_0x2ffb12(0x28c)]),_0x589be8[_0x2ffb12(0x2d9)+'d'](_0x2fd8f8);}),_0x5a1b60[_0x5aea3d(0x3a0)][_0x5aea3d(0x3c3)](_0x5aea3d(0x258));};if(_0x4f2809)_0x4f2809[_0x3163e4(0x201)+'stener'](_0x3163e4(0x1e1),_0x503524);if(_0x15ecea)_0x15ecea[_0x3163e4(0x201)+'stener'](_0x3163e4(0x1e1),()=>_0x5a1b60[_0x3163e4(0x3a0)][_0x3163e4(0x398)](_0x3163e4(0x258)));if(_0x5a1b60)_0x5a1b60[_0x3163e4(0x201)+_0x3163e4(0x289)](_0x3163e4(0x1e1),_0x511410=>{const _0x208a7a=_0x3163e4;_0x511410['target']===_0x5a1b60&&_0x5a1b60[_0x208a7a(0x3a0)][_0x208a7a(0x398)](_0x208a7a(0x258));});const _0x32a82d=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x1d9)+_0x3163e4(0x283)),_0x39fc06=document[_0x3163e4(0x37a)+'ById'](_0x3163e4(0x3a5)+'tn'),_0xa39543=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x193)+'tn'),_0x1fc06f=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x2be)+_0x3163e4(0x3c1)),_0x2635a8=document[_0x3163e4(0x37a)+'ById']('branch-b-c'+_0x3163e4(0x3c1)),_0x2244c8=document[_0x3163e4(0x37a)+_0x3163e4(0x321)](_0x3163e4(0x2b6)+'ce-btn'),_0x3b5634=_0x5bcd92=>{const _0xe5f4ff=_0x3163e4;_0x32a82d[_0xe5f4ff(0x1bf)][_0xe5f4ff(0x2a4)]=_0xe5f4ff(0x255),_0x5bcd92==='A'?(_0x1fc06f[_0xe5f4ff(0x3a0)]['remove'](_0xe5f4ff(0x258)),_0x1fc06f[_0xe5f4ff(0x3ad)+'torAll'](_0xe5f4ff(0x197)+_0xe5f4ff(0x283))[_0xe5f4ff(0x21e)](_0xca51bf=>_0x570c67[_0xe5f4ff(0x1af)](_0xca51bf))):(_0x2635a8[_0xe5f4ff(0x3a0)][_0xe5f4ff(0x3c3)](_0xe5f4ff(0x258)),_0x2635a8['querySelec'+_0xe5f4ff(0x2e0)](_0xe5f4ff(0x197)+_0xe5f4ff(0x283))['forEach'](_0x2f8542=>_0x570c67['observe'](_0x2f8542)));},_0x5dcd6b=()=>{const _0x1be6ca=_0x3163e4;_0x1fc06f['classList'][_0x1be6ca(0x398)]('hidden'),_0x2635a8[_0x1be6ca(0x3a0)][_0x1be6ca(0x398)](_0x1be6ca(0x258)),_0x32a82d[_0x1be6ca(0x1bf)][_0x1be6ca(0x2a4)]='block',_0x32a82d[_0x1be6ca(0x1e3)+_0x1be6ca(0x3e5)]({'behavior':_0x1be6ca(0x311)});};_0x39fc06[_0x3163e4(0x201)+'stener'](_0x3163e4(0x1e1),()=>_0x3b5634('A')),_0xa39543['addEventLi'+_0x3163e4(0x289)](_0x3163e4(0x1e1),()=>_0x3b5634('B')),_0x2244c8[_0x3163e4(0x201)+'stener']('click',_0x5dcd6b);const _0x183d4b=(_0x564a2d,_0x29b155)=>{const _0x38a3db=_0x3163e4,_0x3c5c0b=parseInt(_0x564a2d[_0x38a3db(0x3b0)+'get'][_0x38a3db(0x29c)][_0x38a3db(0x24c)]),_0xfa4e8c=_0x564a2d['currentTar'+'get']['dataset'][_0x38a3db(0x29d)]===_0x38a3db(0x189),_0x38539e=document[_0x38a3db(0x37a)+_0x38a3db(0x321)](_0x29b155+_0x38a3db(0x399)+_0x3c5c0b);if(_0xfa4e8c){_0x38539e[_0x38a3db(0x3a0)][_0x38a3db(0x398)](_0x38a3db(0x258));if(_0x3c5c0b<0x3){const _0x1da2e0=document[_0x38a3db(0x37a)+_0x38a3db(0x321)](_0x29b155+'-step-'+(_0x3c5c0b+0x1));_0x1da2e0[_0x38a3db(0x3a0)][_0x38a3db(0x3c3)]('hidden');}else{const _0x10b7a8=document['getElement'+_0x38a3db(0x321)](_0x29b155===_0x38a3db(0x39d)?_0x38a3db(0x2d6)+_0x38a3db(0x1cf):_0x38a3db(0x209)+_0x38a3db(0x177));_0x10b7a8[_0x38a3db(0x3a0)][_0x38a3db(0x3c3)]('hidden'),_0x10b7a8[_0x38a3db(0x3ad)+'torAll'](_0x38a3db(0x197)+_0x38a3db(0x283))['forEach'](_0x203848=>_0x570c67[_0x38a3db(0x1af)](_0x203848));}}else _0x38539e['querySelec'+'tor'](_0x38a3db(0x235)+_0x38a3db(0x165))[_0x38a3db(0x3a0)][_0x38a3db(0x3c3)](_0x38a3db(0x258));};document[_0x3163e4(0x3ad)+_0x3163e4(0x2e0)](_0x3163e4(0x371)+'n')[_0x3163e4(0x21e)](_0x1ca9d6=>{const _0x5621c7=_0x3163e4;_0x1ca9d6['addEventLi'+_0x5621c7(0x289)]('click',_0x51bf21=>_0x183d4b(_0x51bf21,_0x5621c7(0x39d)));}),document[_0x3163e4(0x3ad)+_0x3163e4(0x2e0)](_0x3163e4(0x3bf)+_0x3163e4(0x25d))[_0x3163e4(0x21e)](_0x34881f=>{const _0x159868=_0x3163e4;_0x34881f[_0x159868(0x201)+_0x159868(0x289)]('click',_0x236a73=>_0x183d4b(_0x236a73,_0x159868(0x2a6)));}),document[_0x3163e4(0x3ad)+_0x3163e4(0x2e0)](_0x3163e4(0x3b9))[_0x3163e4(0x21e)](_0x1c6699=>{const _0x4d4559=_0x3163e4;_0x1c6699[_0x4d4559(0x201)+_0x4d4559(0x289)]('click',_0x532f83=>{const _0x4e6eff=_0x4d4559,_0x3a0afb=parseInt(_0x532f83['currentTar'+_0x4e6eff(0x331)][_0x4e6eff(0x29c)]['step']),_0x2cd2b6=_0x532f83[_0x4e6eff(0x3b0)+'get']['dataset'][_0x4e6eff(0x1ed)]||'revenge',_0xeafdb=document[_0x4e6eff(0x37a)+_0x4e6eff(0x321)](_0x2cd2b6+'-step-'+_0x3a0afb);_0xeafdb[_0x4e6eff(0x3ad)+'tor'](_0x4e6eff(0x235)+_0x4e6eff(0x165))[_0x4e6eff(0x3a0)][_0x4e6eff(0x398)]('hidden');});}),_0x1ca5c4(_0x54050c);}));function _0x11ca(){const _0x3d4671=['she\x20tearfu','o\x27s\x20mind.\x20','a\x20contempt','e\x20story?','er\x20Directl','报道了一则无人认领的','uous\x20warni','ance\x20pulli','ncriminati','A-2:\x20The\x20F','ocking\x20ove','t\x20him\x20goin',';\x20even\x20the','ained\x20noth','greeted\x20by','ly\x20a\x20long,','dn\x27t\x20force','h,\x20he\x20call','lationship','Loop\x20her\x20i','es\x20her\x20a\x20c','He\x20was\x20no\x20','.failure-m',',\x20A\x20Lifeti','rouble\x20for','u\x20successf','是恋爱赠予，虽引起议','but\x20also\x20g','That\x20money','术员抱走了。你失去了','ases','意识在黑暗中重聚，他','备换掉U盘','ality','Directly\x20s','经一片哗然，但还差最','nd\x20hatred,',',\x20each\x20ste','cords','Try\x20Again','e\x20it\x20cause','de\x20the\x20fir','\x20one\x20final','d\x20a\x20stir,\x20','his\x20first\x20','step','The\x20invest','\x20Tan\x20Xin\x27s','\x20You\x20lost\x20','veryone\x20de','\x20and\x20no\x20on','致命一击让她有机会在','im\x20with\x20im','gment\x20comp','none','h\x20a\x20home.\x20','44brvuRS','hidden','Knock\x20over','er\x20shop?','”的聊天记录','en\x20the\x20exp','choice-btn','gained\x20sym','e\x20Porsche\x20','635043LfigPI','\x20by\x20the\x20Ch','nished\x20int','View\x20The\x20L','o\x20real\x20dam','你已被对方拉黑','createElem','nt.\x20Outsid','a\x20to\x20recor','patient\x20mo','故事。你的选择，将决','失败！猫咪的突然攻击','and\x20decide','For\x20you,\x20I','The\x20scene\x20','2144064VzxUhH','o\x20cause\x20pu','疲惫的唯一信念。','底碾碎。','会，里面有她的手机。','他是一只被爱着的、有','\x20her\x20desce','If\x20\x27The\x20Re','A\x20story\x20of','as\x20quickly','那是你自己的事，我没','y\x20for\x20two\x20','e\x20would\x20ge','n\x20her\x20mast','\x20it\x20willin','ng\x20the\x20str','decide\x20his','your\x20only\x20','returned\x20t','跳上键盘，试图自己操','tion','重庆能做什么？','\x20via\x20GPS.\x20','\x20was\x20a\x20gif','第三步：搜证。元宝获','.\x20What\x20sho','stener','An\x20Abyss\x20o','花店，然后我们就结婚','text','support\x20fu','ed\x20cat\x20wit','嘲讽和保时捷男友轻蔑','钱，就给她开梦想中的','保安制服。谭欣虽然受','uld\x20he\x20do?','imately\x20va','dream\x20flow','spises\x20her','你太幼稚了，那点钱在','Snatch\x20the','如果《橘猫重生复仇记','\x27ll\x20get\x20ma','o\x20a\x20dead\x20s','ful\x20enough','dataset','correct','-key]','t\x20body.\x20He','终结这场审判？','of\x20revenge','for\x20securi','力度不够！虽然大家已','display','isappearan','judgment','\x20lying\x20in\x20','The\x20call\x20e','of\x20\x27hardsh','\x20ate\x20poorl','red\x20from.\x20','Buy\x20Me\x20a\x20C','\x20The\x20Abyss','ast\x20ounce\x20','\x20all\x20the\x20v','timidation','and\x20scratc','p\x20striking','Trip\x20her\x20t','\x20get\x20cruci','his\x20last\x20m','reset-choi','1695676fQGBsN','ed.','div','Tan\x20Xin\x27s\x20','ally\x20quest','handbag,\x20w','e\x20must\x20fin','branch-a-c','话那头，只有不耐烦的','ip\x27,\x20she\x20d','连复仇的念想也一同沉','\x20life.','ahead.','通了谭欣的电话，歇斯','论但她暂时稳住了局势','echnician.','o\x20he\x20was\x20o','You\x20have\x20b','ending\x20his','chat-heade','hance\x20to\x20s','inal\x20Confr','ttack\x20caus','nto\x20the\x20fl','ness.\x20I\x20di','的数字，最终只化为重','投资发布会，是谭欣人','the\x20USB\x20dr','一念深渊，一世复仇','\x20thought\x20o','于能像一只真正的猫那','path-b-fin','溺亡事件，无人关心他','f\x20Betrayal','appendChil','erly\x20crush','buying\x20the','2798CzvcRK','enge','a\x20little\x20t','后一笔钱，备注“自愿','torAll','langKey','前路。','ontation','Choice','ions!\x20Ever','e\x20bottom\x20o','\x20only\x20fait','结局A:\x20无声的消逝','nge','ut\x20a\x20belov','the\x20stage\x20','nd\x20of\x20the\x20','ng\x20from\x20th','osé?','cstasy,\x20on','the\x20note\x20\x27','cess.\x20Yuan','复仇之神。','2984660TnOYUn','outh\x20and\x20h','</span>','Or,\x20you\x20ca','第二步：恐吓。谭欣要','He\x20wasn\x27t\x20','Ending\x20A:\x20','boyfriend.','一顿好的……','ld\x20river,\x20','imbing.\x20Wh','ould\x20final','A\x20New\x20Feli','\x20blow\x20is\x20n','\x20the\x20humbl','chat-bubbl','普通的猫咪捣乱，被技','nsferring\x20','s\x20a\x20perfec','花店是怎么回事？','\x20Success!\x20','\x20of\x20a\x20fata','Use\x20the\x20co','的、疲惫的解脱。他终','h\x20the\x20flow','是打击她事业的良机。','nt\x20into\x20he','chat-modal','he\x20peak\x20of','ginning\x20of','smooth','a\x20major\x20fl','.\x20You\x20gave','ly\x20exposed','者喝杯咖啡，支持后续','is\x20was\x20the','h\x20her','idence.\x20Yu','欣的痛点上。他不再是','冰冷的江水，结束了这','Show\x20the\x20s','sent','he\x20flames\x20','\x20this.','ojector.\x20H','t\x20opportun','ById','pathy.\x20The','行动没有造成实质性打','返回，重新选择命运','\x20around\x20an','udgment','发现自己被困在一个柔','猫元宝，带着前世所有','target','se\x27.','oesn\x27t\x20kno','喜欢这个故事吗？','textConten','绝佳的机会，元宝决定','ty.','loss,\x20whic','get','\x20devastate','\x20no\x20longer','Confront\x20H','lang','chat-body','oral\x20exhib','ins\x20her\x20ph','\x20drowning,','ll.\x20It\x20is\x20','\x20to\x20his\x20ca','race,\x20he\x20p','到狂喜，只有一种漫长','financial\x20','Create\x20a\x20d','月来第一顿肉，却成了','隔断间，对猫喃喃自语','na,\x20like\x20a','nd\x20called\x20','coffee\x20to\x20','打出的牌，用什么来作','!\x20Though\x20e','ao\x20decides','of\x20Lin\x20Mo\x27','gift.\x20Whil','他用尽最后的力气，拨','失败！打翻花瓶只造成','s\x20a\x20cat\x20ju','B-3:\x20复仇之路','\x20felt\x20no\x20e','为揭穿她的开场？','Ending\x20B:\x20','\x20all\x20past\x20','\x20betrayal\x20','，并要求保安介入。','一场精心策划的复仇，','lly\x20exting','么做？','erpiece','底里地质问着一切。电','d\x20this\x20jud','ully\x20hid\x20t','n\x20the\x20chao','那些钱，是你自愿给我','The\x20Reborn','is\x20the\x20key','f\x20revenge\x20','Not\x20impact','y,\x20he\x20ate\x20','\x20became\x20hi','You\x27re\x20so\x20','s\x20warm\x20emb','15EmeORP','ss\x20room,\x20h','这场奔赴，吃下了两个','o\x20the\x20wind','in\x20two\x20mon','Alipay','[data-lang','d\x20in\x20a\x20sof','n\x20quickly\x20','\x20and\x20swap\x20','moved\x20you,','\x20laughable','.choice-bt','残酷的现实','you\x20who\x20wi','te\x20it\x20hims','oney\x20with\x20','way\x20by\x20a\x20t','直接放出51万的转账','A\x20Cruel\x20Re','林默，脑中闪过最后的','getElement','念头。是就这样结束一','给谭欣的社交活动制造','\x20plan\x20fail','第二步：开场。成功了','speech\x20on\x20','的动力。','but\x20Tan\x20Xi','\x20and\x20opera','结局B:\x20暖阳','新的猫生','rassment','逼你。','Should\x20he\x20','1893lvQNPp','ll\x20direct\x20','chat_heade','st\x20card\x20to','urred\x20with','Standing\x20b','键时刻。','12249Ebmrbq','\x20now,\x20or..','Show\x20her\x20c','r,\x20utterly','寂。他输得一败涂地，','end\x20it\x20all','memories\x20a','kly\x20recove','age.','add','-step-','born\x20Cat\x27s','Consciousn','\x20thought\x20f','revenge','one.\x20This\x20','flex\x20items','classList','\x20After\x20tra','的警告。他的尊严被彻','\x20though\x20fr','t\x20married.','choice-a-b','\x20contentme','but\x20the\x20go','\x20social\x20cl','rence\x20is\x20t','was\x20seen\x20a','Tan\x20Xin\x20is','Endure\x20and','querySelec','innerHTML','A-2:\x20最后的对峙','currentTar','gly.','\x20weary\x20rel','着“艰苦创业”的故事','bao\x20sneaks','\x20a\x20man\x20in\x20','e\x20to\x20damag','家的猫。在苏晚温暖的','1648vogdlY','.retry-btn','ts.\x20He\x20was','先放出她与其他“金主','用项圈摄像头拍下手机','\x20little\x20lo','That\x27s\x20you','.judgment-','istraction','ontent','赠予”后，他纵身跃入','remove','isIntersec','A\x20Humble\x20D','ease.\x20He\x20c','\x20his\x20fianc','效果不佳！谭欣声称这','Not\x20effect','\x20and\x20finds','ths,\x20which','就重新布置好了。你的','er\x20my-2','\x20moon\x20was\x20','tion\x20of\x20st','参加重要的花艺展，这',',\x20carrying','You\x20said\x20w','received','nd\x20then\x20we','proar,\x20but','切，还是……','\x20transfer\x20','Loaded','ing.','e\x20murmured','\x20giving\x20a\x20','影仪的电脑。他必须想','e\x20Lin\x20Mo,\x20','creenshot\x20','e\x20Opening.','bright,\x20il','\x20life.\x20As\x20','我为了你，两年没吃过','\x20to\x20cause\x20','一个故事的结束，是另','View','d,\x20a\x20final','在她的作品里放上死老','制造混乱，趁技术员不','而是她挽着保时捷车主','een\x20blocke','his\x20journe','Failed!\x20Kn','f\x20the\x20rive','\x20can\x20of\x20tu','元宝潜入了花店，他决','essage','Go\x20Back,\x20C','Lin\x20Mo,\x20le','In\x20Su\x20Wan\x27','第一集：深渊','a\x20Porsche.','stify-cent','real\x20meal\x20','ver.\x20For\x20t','ioning\x20eve','DOMContent','ad\x20mouse\x20i','user','ry.','失败！你的举动被当成','\x20you.','ower\x20shop\x20','med\x20in\x20dar','ing','rything.\x20T','naive.\x20Wha','\x20fate.','ent','隐忍复仇','ting','\x20close\x20to\x20','located\x20it','longer\x20a\x20g','Crossroads','e-btn','anbao\x20gets','定他的命运。','completely','2\x20py-1\x20rou','re\x20bought\x20','-400\x20bg-gr','true','rted\x20an\x20un','查看最后的聊天记录','e\x20sudden\x20a','故事。','ckery\x20and\x20','的记忆和怨恨，在一个','\x20use\x20to\x20op','ur\x20action\x20','Abyss','choice-b-b','ream','With\x20his\x20l','\x20Cat\x27s\x20Rev','.story-sec','h\x20that\x20kep','via\x20QR\x20cod','e\x20keyboard','hoose\x20Agai','ty\x20was\x20utt','ment\x20confe','When\x20hatre','放出林默最后的汉堡截','一点小麻烦。他应该怎','e\x20screen','入地狱的开始。你，来','\x20of\x20Fate','\x20handled\x20b','f\x20her\x20with','ng\x20chat\x20re','identified','ized\x20the\x20s','p\x20controll','d\x20you\x20were','\x27benefacto','外，新月明亮，照亮了','h.\x20Your\x20ch','chat-sent','observe','ath\x20of\x20Rev','Tan\x20Xin','ough\x20Lin\x20M','这是获取核心证据的关','Step\x201:\x20Ac','er\x20shop,\x20a','\x20plug\x20in\x20t','documentEl','ightened,\x20','ity.\x20Yuanb','nded-full\x22','ved','当仇恨散去，复仇的火','ough,\x20I\x27ll','请我喝杯咖啡','style','B-3:\x20The\x20P','blic\x20embar','Enjoyed\x20th','w\x20it\x20is\x20th','is\x20partici','ney\x20do\x20in\x20','WeChat\x20Pay','ith\x20other\x20','ly\x20caused\x20','位找到了它。你不仅暴','t\x20will\x20you','how\x20the\x2051','\x20were\x20fina','两年，51万——这串','y\x20bit\x20of\x20y','al-content','t\x20can\x20that','years...','Failed!\x20Yo','全新的世界里，蛰伏着','生的巅峰。她含泪讲述','close-chat','ories\x20like','B-4:\x20审判','露了自己，还一无所获','choice-sec','What\x27s\x20wit','ture\x20creat','The\x20Sunshi',',\x20the\x20lack','的刺眼笑容。在转完最','host\x20of\x20ve','\x20consider\x20','click','record','scrollInto','B-4:\x20The\x20J','d\x20faded,\x20t','\x20yourself\x20','间的共同基金。','t\x20day,\x20the','\x20it\x20was\x20a\x20','\x20hide\x20it','s\x20to\x20leave','得了接近谭欣手包的机','type','返回重试','ive','sruption.\x20','ée,\x20but\x20by','s\x20last.','Your\x20actio','view-chat-','软的身体里。他成了橘','e\x20cared\x20wh','ne\x20Life','》打动了您，不妨请作','lly\x20tells\x20','the\x20shadow','第一步：接入。元宝潜','ive!\x20Tan\x20X','他住在终年不见阳光的','className','and\x20rebirt','怀抱里，他发出了满足','addEventLi','uished.\x20He','每一步都精准地踩在谭','唯一的机会。','Step\x202:\x20Th','s=\x22text-xs',',\x20you\x20deci','s\x20last\x20ham','path-b-end','he\x20phone,\x20','kness.\x20He\x20','oice\x20will\x20','e\x20orange\x20c','system','chat-recei','8533730aMQYDt','world.','导演这场终局。','是谁，也无人记得他的','A\x20meticulo','ney...','line\x20met\x20h','visible','打翻所有花瓶','tion\x20but\x20w','our\x20suppor','elf','Two\x20years,','\x20use\x20to\x20en','forEach'];_0x11ca=function(){return _0x3d4671;};return _0x11ca();}
+document.addEventListener('DOMContentLoaded', () => {
+    const langData = {
+        zh: {
+            app_title: "橘猫重生复仇记",
+            nav_abyss: "深渊",
+            nav_choice: "抉择",
+            hero_title: "一念深渊，一世复仇",
+            hero_subtitle: "一个关于背叛与重生的故事。你的选择，将决定他的命运。",
+            ep1_title: "第一集：深渊",
+            ep1_subtitle: "两年，51万——这串用他的青春和健康换来的数字，最终只化为重庆江边的一阵风。他为这场奔赴，吃下了两个月来第一顿肉，却成了他人生的最后一餐。",
+            ep1_card1_title: "卑微的梦",
+            ep1_card1_text: "他住在终年不见阳光的隔断间，对猫喃喃自语：‘再等等，等我凑够钱，就给她开梦想中的花店，然后我们就结婚。’这是他对抗全世界疲惫的唯一信念。",
+            ep1_card2_title: "残酷的现实",
+            ep1_card2_text: "他等来的不是未婚妻，而是她挽着保时捷车主的刺眼笑容。在转完最后一笔钱，备注“自愿赠予”后，他纵身跃入冰冷的江水，结束了这笑话般的人生。",
+            ep1_button: "查看最后的聊天记录",
+            choice_title: "命运的十字路口",
+            choice_subtitle: "站在江边，万念俱灰的林默，脑中闪过最后的念头。是就这样结束一切，还是……",
+            choice_a_text: "当面对质",
+            choice_b_text: "隐忍复仇",
+            choice_reset_button: "返回，重新选择命运",
+            path_a_ep2_title: "A-2: 最后的对峙",
+            path_a_ep2_subtitle: "他用尽最后的力气，拨通了谭欣的电话，歇斯底里地质问着一切。电话那头，只有不耐烦的嘲讽和保时捷男友轻蔑的警告。他的尊严被彻底碾碎。",
+            path_a_ep3_title: "结局A: 无声的消逝",
+            path_a_ep3_subtitle: "电话挂断，世界重归死寂。他输得一败涂地，连复仇的念想也一同沉入江底。第二天，新闻报道了一则无人认领的溺亡事件，无人关心他是谁，也无人记得他的故事。",
+            ep2_title: "B-2: 新生",
+            ep2_subtitle: "意识在黑暗中重聚，他发现自己被困在一个柔软的身体里。他成了橘猫元宝，带着前世所有的记忆和怨恨，在一个全新的世界里，蛰伏着。",
+            ep3_title: "B-3: 复仇之路",
+            ep3_subtitle: "一场精心策划的复仇，每一步都精准地踩在谭欣的痛点上。他不再是那个卑微的林默，而是藏在暗处，操纵一切的复仇之神。",
+            step1_desc: "第一步：扰乱。晚宴是绝佳的机会，元宝决定给谭欣的社交活动制造一点小麻烦。他应该怎么做？",
+            step1_choice_correct: "绊倒她，让她当众出丑",
+            step1_choice_incorrect: "直接冲上台，抓挠谭欣",
+            step1_failure: "失败！猫咪的突然攻击引起了骚乱，但很快被保安制服。谭欣虽然受了惊吓，却博取了同情。计划失败。",
+            step2_desc: "第二步：恐吓。谭欣要参加重要的花艺展，这是打击她事业的良机。元宝潜入了花店，他决定留下一个“惊喜”。",
+            step2_choice_incorrect: "打翻所有花瓶",
+            step2_choice_correct: "在她的作品里放上死老鼠",
+            step2_failure: "失败！打翻花瓶只造成了金钱损失，谭欣很快就重新布置好了。你的行动没有造成实质性打击。",
+            step3_desc: "第三步：搜证。元宝获得了接近谭欣手包的机会，里面有她的手机。这是获取核心证据的关键时刻。",
+            step3_choice_correct: "用项圈摄像头拍下手机内容",
+            step3_choice_incorrect: "把手机叼走藏起来",
+            step3_failure: "失败！你成功藏起了手机，但谭欣很快通过定位找到了它。你不仅暴露了自己，还一无所获。",
+            retry_button: "返回重试",
+            ep6_title: "B-4: 审判",
+            ep6_subtitle: "投资发布会，是谭欣人生的巅峰。她含泪讲述着“艰苦创业”的故事，殊不知，这将是她坠入地狱的开始。你，来导演这场终局。",
+            judgment1_desc: "第一步：接入。元宝潜入后台，找到了控制投影仪的电脑。他必须想办法把存有证据的U盘插进去。他该怎么做？",
+            judgment1_choice_correct: "制造混乱，趁技术员不备换掉U盘",
+            judgment1_choice_incorrect: "跳上键盘，试图自己操作",
+            judgment1_failure: "失败！你的举动被当成普通的猫咪捣乱，被技术员抱走了。你失去了唯一的机会。",
+            judgment2_desc: "第二步：开场。成功了！谭欣正在台上演讲。现在，你来决定第一张打出的牌，用什么来作为揭穿她的开场？",
+            judgment2_choice_correct: "先放出她与其他“金主”的聊天记录",
+            judgment2_choice_incorrect: "直接放出51万的转账记录",
+            judgment2_failure: "效果不佳！谭欣声称这是恋爱赠予，虽引起议论但她暂时稳住了局势，并要求保安介入。",
+            judgment3_desc: "第三步：终结。现场已经一片哗然，但还差最后一击！用什么来彻底终结这场审判？",
+            judgment3_choice_correct: "放出林默最后的汉堡截图",
+            judgment3_choice_incorrect: "循环播放她的聊天记录",
+            judgment3_failure: "力度不够！虽然大家已对她无比鄙夷，但缺乏致命一击让她有机会在混乱中溜走。",
+            ep7_title: "结局B: 暖阳",
+            ep7_subtitle: "当仇恨散去，复仇的火焰终归熄灭。他没有感到狂喜，只有一种漫长的、疲惫的解脱。他终于能像一只真正的猫那样，享受一餐美味的金枪鱼罐头。",
+            ep7_card_title: "新的猫生",
+            ep7_card_text: "他不再是复仇的鬼魂，他是一只被爱着的、有家的猫。在苏晚温暖的怀抱里，他发出了满足的、响亮的呼噜声。窗外，新月明亮，照亮了前路。",
+            footer_text: "一个故事的结束，是另一个故事的开始。",
+            support_title: "喜欢这个故事吗？",
+            support_subtitle: "如果《橘猫重生复仇记》打动了您，不妨请作者喝杯咖啡，支持后续的创作！您的每一份支持，都是故事得以延续的动力。",
+            support_paypal: "通过 PayPal 支持",
+            support_coffee: "请我喝杯咖啡",
+            support_qrcode_title: "或者，您也可以通过二维码支持：",
+            support_wechat: "微信支付",
+            support_alipay: "支付宝",
+            chat_header: "谭欣",
+            chat_log: [ { type: 'sent', text: "花店是怎么回事？" }, { type: 'sent', text: "那些钱……" }, { type: 'received', text: "林默，我们分手吧。" }, { type: 'received', text: "那些钱，是你自愿给我的，算是我们谈恋爱期间的共同基金。" }, { type: 'sent', text: "你说过要结婚的。" }, { type: 'received', text: "你太幼稚了，那点钱在重庆能做什么？" }, { type: 'sent', text: "我为了你，两年没吃过一顿好的……" }, { type: 'received', text: "那是你自己的事，我没逼你。" }, { type: 'system', text: "你已被对方拉黑" } ]
+        },
+        en: {
+            app_title: "The Reborn Cat's Revenge",
+            nav_abyss: "Abyss",
+            nav_choice: "Choice",
+            hero_title: "An Abyss of Betrayal, A Lifetime of Revenge",
+            hero_subtitle: "A story of betrayal and rebirth. Your choice will decide his fate.",
+            ep1_title: "Episode 1: The Abyss",
+            ep1_subtitle: "Two years, 510,000 yuan—a figure bought with his youth and health, ultimately vanished into the wind by the Chongqing river. For this journey, he ate his first real meal in two months, which became his last.",
+            ep1_card1_title: "A Humble Dream",
+            ep1_card1_text: "In a sunless room, he murmured to his cat: 'Just a little longer, when I have enough, I'll open her dream flower shop, and then we'll get married.' This was the only faith that kept him going.",
+            ep1_card2_title: "A Cruel Reality",
+            ep1_card2_text: "He wasn't greeted by his fiancée, but by the jarring sight of her with a man in a Porsche. After transferring his last money with the note 'Willingly Gifted', he leaped into the cold river, ending his laughable life.",
+            ep1_button: "View The Last Chat",
+            choice_title: "Crossroads of Fate",
+            choice_subtitle: "Standing by the river, utterly devastated, a final thought flashes through Lin Mo's mind. Should he end it all now, or...",
+            choice_a_text: "Confront Her Directly",
+            choice_b_text: "Endure and Take Revenge",
+            choice_reset_button: "Go Back, Choose Again",
+            path_a_ep2_title: "A-2: The Final Confrontation",
+            path_a_ep2_subtitle: "With his last ounce of strength, he called Tan Xin, hysterically questioning everything. The other end of the line met him with impatient mockery and a contemptuous warning from the Porsche boyfriend. His dignity was utterly crushed.",
+            path_a_ep3_title: "Ending A: A Silent Disappearance",
+            path_a_ep3_subtitle: "The call ended, and the world returned to a dead silence. He had lost completely; even the thought of revenge sank to the bottom of the river. The next day, the news reported an unidentified drowning, and no one cared who he was or remembered his story.",
+            ep2_title: "B-2: Rebirth",
+            ep2_subtitle: "Consciousness re-formed in darkness. He found himself trapped in a soft body. He became the orange cat Yuanbao, carrying all past memories and hatred, lying in wait in a brand new world.",
+            ep3_title: "B-3: The Path of Revenge",
+            ep3_subtitle: "A meticulously planned revenge, each step striking Tan Xin's weak points. He was no longer the humble Lin Mo, but the god of vengeance pulling the strings from the shadows.",
+            step1_desc: "Step 1: Disruption. The gala is a perfect opportunity. Yuanbao decides to cause a little trouble for Tan Xin's social climbing. What should he do?",
+            step1_choice_correct: "Trip her to cause public embarrassment",
+            step1_choice_incorrect: "Rush onto the stage and scratch her",
+            step1_failure: "Failed! The sudden attack caused a commotion but was quickly handled by security. Tan Xin, though frightened, gained sympathy. The plan failed.",
+            step2_desc: "Step 2: Intimidation. Tan Xin is participating in a major floral exhibition, a great chance to damage her career. Yuanbao sneaks into the flower shop and decides to leave a 'surprise'.",
+            step2_choice_incorrect: "Knock over all the vases",
+            step2_choice_correct: "Place a dead mouse in her masterpiece",
+            step2_failure: "Failed! Knocking over vases only caused financial loss, which she quickly recovered from. Your action caused no real damage.",
+            step3_desc: "Step 3: Evidence. Yuanbao gets close to Tan Xin's handbag, which contains her phone. This is the key moment to get crucial evidence.",
+            step3_choice_correct: "Use the collar camera to record the phone screen",
+            step3_choice_incorrect: "Snatch the phone and hide it",
+            step3_failure: "Failed! You successfully hid the phone, but Tan Xin quickly located it via GPS. You not only exposed yourself but also gained nothing.",
+            retry_button: "Try Again",
+            ep6_title: "B-4: The Judgment",
+            ep6_subtitle: "The investment conference is the peak of Tan Xin's life. As she tearfully tells her story of 'hardship', she doesn't know it is the start of her descent into hell. It is you who will direct this finale.",
+            judgment1_desc: "Step 1: Access. Yuanbao sneaks backstage and finds the laptop controlling the projector. He must find a way to plug in the USB drive with the evidence. What should he do?",
+            judgment1_choice_correct: "Create a distraction and swap the USB drive",
+            judgment1_choice_incorrect: "Jump on the keyboard and operate it himself",
+            judgment1_failure: "Failed! Your action was seen as a cat just messing around and you were carried away by a technician. You lost your only chance.",
+            judgment2_desc: "Step 2: The Opening. Success! Tan Xin is giving a speech on stage. Now, you decide the first card to play. What will you use to open the exposé?",
+            judgment2_choice_correct: "Show her chat logs with other 'benefactors' first",
+            judgment2_choice_incorrect: "Directly show the 510,000 yuan transfer record",
+            judgment2_failure: "Not effective! Tan Xin claimed it was a gift. While it caused a stir, she stabilized the situation and called for security.",
+            judgment3_desc: "Step 3: The Finale. The scene is in an uproar, but one final blow is needed! What will you use to end this judgment completely?",
+            judgment3_choice_correct: "Show the screenshot of Lin Mo's last hamburger",
+            judgment3_choice_incorrect: "Loop her incriminating chat records",
+            judgment3_failure: "Not impactful enough! Though everyone despises her, the lack of a fatal blow gives her a chance to slip away in the chaos.",
+            ep7_title: "Ending B: The Sunshine",
+            ep7_subtitle: "When hatred faded, the flames of revenge were finally extinguished. He felt no ecstasy, only a long, weary release. He could finally enjoy a delicious can of tuna, like a real cat.",
+            ep7_card_title: "A New Feline Life",
+            ep7_card_text: "He was no longer a ghost of vengeance, but a beloved cat with a home. In Su Wan's warm embrace, he purred with contentment. Outside, the new moon was bright, illuminating the path ahead.",
+            footer_text: "The end of one story is the beginning of another.",
+            support_title: "Enjoyed the story?",
+            support_subtitle: "If 'The Reborn Cat's Revenge' moved you, consider buying the author a coffee to support future creations! Every bit of your support fuels the continuation of stories like this.",
+            support_paypal: "Support with PayPal",
+            support_coffee: "Buy Me a Coffee",
+            support_qrcode_title: "Or, you can support via QR code:",
+            support_wechat: "WeChat Pay",
+            support_alipay: "Alipay",
+            chat_header: "Tan Xin",
+            chat_log: [ { type: 'sent', text: "What's with the flower shop?" }, { type: 'sent', text: "And the money..." }, { type: 'received', text: "Lin Mo, let's break up." }, { type: 'received', text: "That money was a gift, a fund for our relationship. You gave it willingly." }, { type: 'sent', text: "You said we would get married." }, { type: 'received', text: "You're so naive. What can that little money do in this city?" }, { type: 'sent', text: "For you, I ate poorly for two years..." }, { type: 'received', text: "That's your own business. I didn't force you." }, { type: 'system', text: "You have been blocked by this user" } ]
+        }
+    };
+    let currentLang = 'en';
+    const langToggleBtn = document.getElementById('lang-toggle-btn');
+
+    function updateLanguage(lang) {
+        document.querySelectorAll('[data-lang-key]').forEach(el => {
+            const key = el.dataset.langKey;
+            if (langData[lang] && langData[lang][key]) {
+                el.textContent = langData[lang][key];
+            }
+        });
+        document.documentElement.lang = lang;
+        langToggleBtn.textContent = lang === 'zh' ? 'EN' : '中文';
+    }
+
+    langToggleBtn.addEventListener('click', () => {
+        currentLang = currentLang === 'zh' ? 'en' : 'zh';
+        updateLanguage(currentLang);
+    });
+
+    const storySections = document.querySelectorAll('.story-section');
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, { threshold: 0.1 });
+    storySections.forEach(section => {
+        observer.observe(section);
+    });
+
+    const chatModal = document.getElementById('chat-modal');
+    const viewChatBtn = document.getElementById('view-chat-btn');
+    const closeChatBtn = document.getElementById('close-chat-btn');
+    const chatHeader = document.getElementById('chat-header');
+    const chatBody = document.getElementById('chat-body');
+
+    const openChatModal = () => {
+        chatHeader.textContent = langData[currentLang].chat_header;
+        chatBody.innerHTML = '';
+        langData[currentLang].chat_log.forEach(msg => {
+            const el = document.createElement('div');
+            if (msg.type === 'system') {
+                el.className = 'flex items-center justify-center my-2';
+                el.innerHTML = `<span class="text-xs text-gray-400 bg-gray-200 px-2 py-1 rounded-full">${msg.text}</span>`;
+            } else {
+                el.className = `chat-bubble ${msg.type === 'sent' ? 'chat-sent' : 'chat-received'}`;
+                el.textContent = msg.text;
+            }
+            chatBody.appendChild(el);
+        });
+        chatModal.classList.remove('hidden');
+    };
+
+    if (viewChatBtn) viewChatBtn.addEventListener('click', openChatModal);
+    if(closeChatBtn) closeChatBtn.addEventListener('click', () => chatModal.classList.add('hidden'));
+    if(chatModal) chatModal.addEventListener('click', (e) => {
+        if (e.target === chatModal) {
+            chatModal.classList.add('hidden');
+        }
+    });
+
+    const choiceSection = document.getElementById('choice-section');
+    const choiceA_Btn = document.getElementById('choice-a-btn');
+    const choiceB_Btn = document.getElementById('choice-b-btn');
+    const branchA_Content = document.getElementById('branch-a-content');
+    const branchB_Content = document.getElementById('branch-b-content');
+    const resetChoiceBtn = document.getElementById('reset-choice-btn');
+
+    const makeChoice = (path) => {
+        choiceSection.style.display = 'none';
+        if (path === 'A') {
+            branchA_Content.classList.remove('hidden');
+            branchA_Content.querySelectorAll('.story-section').forEach(section => observer.observe(section));
+        } else {
+            branchB_Content.classList.remove('hidden');
+            branchB_Content.querySelectorAll('.story-section').forEach(section => observer.observe(section));
+        }
+    };
+
+    const resetChoice = () => {
+        branchA_Content.classList.add('hidden');
+        branchB_Content.classList.add('hidden');
+        choiceSection.style.display = 'block';
+        choiceSection.scrollIntoView({ behavior: 'smooth' });
+    };
+
+    choiceA_Btn.addEventListener('click', () => makeChoice('A'));
+    choiceB_Btn.addEventListener('click', () => makeChoice('B'));
+    resetChoiceBtn.addEventListener('click', resetChoice);
+
+    const handleStepChoice = (e, type) => {
+        const step = parseInt(e.currentTarget.dataset.step);
+        const isCorrect = e.currentTarget.dataset.correct === 'true';
+        const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+
+        if (isCorrect) {
+            currentStepContainer.classList.add('hidden');
+            if (step < 3) {
+                const nextStepContainer = document.getElementById(`${type}-step-${step + 1}`);
+                nextStepContainer.classList.remove('hidden');
+            } else {
+                const finalContent = document.getElementById(type === 'revenge' ? 'path-b-final-content' : 'path-b-ending');
+                finalContent.classList.remove('hidden');
+                finalContent.querySelectorAll('.story-section').forEach(s => observer.observe(s));
+            }
+        } else {
+            currentStepContainer.querySelector('.failure-message').classList.remove('hidden');
+        }
+    };
+
+    document.querySelectorAll('.choice-btn').forEach(button => {
+        button.addEventListener('click', (e) => handleStepChoice(e, 'revenge'));
+    });
+
+    document.querySelectorAll('.judgment-choice-btn').forEach(button => {
+        button.addEventListener('click', (e) => handleStepChoice(e, 'judgment'));
+    });
+
+    document.querySelectorAll('.retry-btn').forEach(button => {
+        button.addEventListener('click', (e) => {
+            const step = parseInt(e.currentTarget.dataset.step);
+            const type = e.currentTarget.dataset.type || 'revenge';
+            const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+            currentStepContainer.querySelector('.failure-message').classList.add('hidden');
+        });
+    });
+
+    updateLanguage(currentLang);
+});
