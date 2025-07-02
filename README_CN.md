@@ -52,6 +52,12 @@
 
 【注意】谢绝未经济独立的未成年机油打赏！留着自己买学习用品什么的，父母赚钱不易！
 
+PayPal
+    [https://paypal.me/anchorlau?country.x=C2&locale.x=zh_XC]
+
+请我喝杯咖啡
+    [https://ko-fi.com/anchorlau]	
+
 微信支付 (WeChat Pay)
 	![image](https://github.com/user-attachments/assets/a5c5ac9f-b3d0-4244-bed5-48116cec5dce)
 
