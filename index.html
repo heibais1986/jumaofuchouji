@@ -82,7 +82,7 @@
                 <a href="#episode-1" data-lang-key="nav_abyss" class="hover:text-orange-400 transition-colors"></a>
                 <a href="#choice-section" data-lang-key="nav_choice" class="hover:text-orange-400 transition-colors"></a>
             </nav>
-            <button id="lang-toggle-btn" class="text-sm font-semibold text-gray-300 border border-gray-600 px-3 py-1 rounded-full hover:bg-gray-700 hover:text-white transition-colors">EN</button>
+            <button id="lang-toggle-btn" class="text-sm font-semibold text-gray-300 border border-gray-600 px-3 py-1 rounded-full hover:bg-gray-700 hover:text-white transition-colors">中文</button>
         </div>
     </div>
 </header>
@@ -161,39 +161,63 @@
                     <!-- Revenge Step 1 -->
                     <div id="revenge-step-1" class="text-center">
                         <p data-lang-key="step1_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                        <div class="flex flex-col md:flex-row justify-center gap-6">
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="step1_choice_correct"></span></button>
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="step1_choice_incorrect"></span></button>
+                        <div class="choice-wrapper">
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="step1_choice_correct"></span></button>
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="step1_choice_incorrect"></span></button>
+                            </div>
                         </div>
-                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                            <p data-lang-key="step1_failure" class="mb-4"></p>
-                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1"><span data-lang-key="retry_button"></span></button>
+                        <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                            <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                <p data-lang-key="step1_success" class="mb-4"></p>
+                                <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1"><span data-lang-key="continue_button"></span></button>
+                            </div>
+                            <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                <p data-lang-key="step1_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1"><span data-lang-key="retry_button"></span></button>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Revenge Step 2 -->
                     <div id="revenge-step-2" class="text-center hidden">
                         <p data-lang-key="step2_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                        <div class="flex flex-col md:flex-row justify-center gap-6">
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="step2_choice_incorrect"></span></button>
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="step2_choice_correct"></span></button>
+                        <div class="choice-wrapper">
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="step2_choice_incorrect"></span></button>
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="step2_choice_correct"></span></button>
+                            </div>
                         </div>
-                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                            <p data-lang-key="step2_failure" class="mb-4"></p>
-                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2"><span data-lang-key="retry_button"></span></button>
+                        <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                            <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                <p data-lang-key="step2_success" class="mb-4"></p>
+                                <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2"><span data-lang-key="continue_button"></span></button>
+                            </div>
+                            <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                <p data-lang-key="step2_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2"><span data-lang-key="retry_button"></span></button>
+                            </div>
                         </div>
                     </div>
 
                     <!-- Revenge Step 3 -->
                     <div id="revenge-step-3" class="text-center hidden">
                         <p data-lang-key="step3_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                        <div class="flex flex-col md:flex-row justify-center gap-6">
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="step3_choice_correct"></span></button>
-                            <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="step3_choice_incorrect"></span></button>
+                        <div class="choice-wrapper">
+                            <div class="flex flex-col md:flex-row justify-center gap-6">
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="step3_choice_correct"></span></button>
+                                <button class="choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="step3_choice_incorrect"></span></button>
+                            </div>
                         </div>
-                        <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                            <p data-lang-key="step3_failure" class="mb-4"></p>
-                            <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3"><span data-lang-key="retry_button"></span></button>
+                        <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                            <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                <p data-lang-key="step3_success" class="mb-4"></p>
+                                <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3"><span data-lang-key="continue_button"></span></button>
+                            </div>
+                            <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                <p data-lang-key="step3_failure" class="mb-4"></p>
+                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3"><span data-lang-key="retry_button"></span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -208,37 +232,61 @@
                         <!-- Judgment Step 1 -->
                         <div id="judgment-step-1" class="text-center">
                             <p data-lang-key="judgment1_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                            <div class="flex flex-col md:flex-row justify-center gap-6">
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="judgment1_choice_correct"></span></button>
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="judgment1_choice_incorrect"></span></button>
+                            <div class="choice-wrapper">
+                                <div class="flex flex-col md:flex-row justify-center gap-6">
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="1" data-correct="true"><span data-lang-key="judgment1_choice_correct"></span></button>
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="1" data-correct="false"><span data-lang-key="judgment1_choice_incorrect"></span></button>
+                                </div>
                             </div>
-                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                                <p data-lang-key="judgment1_failure" class="mb-4"></p>
-                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                                <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment1_success" class="mb-4"></p>
+                                    <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1" data-type="judgment"><span data-lang-key="continue_button"></span></button>
+                                </div>
+                                <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment1_failure" class="mb-4"></p>
+                                    <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="1" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                                </div>
                             </div>
                         </div>
                         <!-- Judgment Step 2 -->
                         <div id="judgment-step-2" class="text-center hidden">
                             <p data-lang-key="judgment2_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                            <div class="flex flex-col md:flex-row justify-center gap-6">
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="judgment2_choice_correct"></span></button>
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="judgment2_choice_incorrect"></span></button>
+                            <div class="choice-wrapper">
+                                <div class="flex flex-col md:flex-row justify-center gap-6">
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="2" data-correct="true"><span data-lang-key="judgment2_choice_correct"></span></button>
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="2" data-correct="false"><span data-lang-key="judgment2_choice_incorrect"></span></button>
+                                </div>
                             </div>
-                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                                <p data-lang-key="judgment2_failure" class="mb-4"></p>
-                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                                <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment2_success" class="mb-4"></p>
+                                    <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2" data-type="judgment"><span data-lang-key="continue_button"></span></button>
+                                </div>
+                                <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment2_failure" class="mb-4"></p>
+                                    <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="2" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                                </div>
                             </div>
                         </div>
                         <!-- Judgment Step 3 -->
                         <div id="judgment-step-3" class="text-center hidden">
                             <p data-lang-key="judgment3_desc" class="text-xl text-gray-300 max-w-2xl mx-auto mb-6"></p>
-                            <div class="flex flex-col md:flex-row justify-center gap-6">
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="judgment3_choice_incorrect"></span></button>
-                                <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="judgment3_choice_correct"></span></button>
+                            <div class="choice-wrapper">
+                                <div class="flex flex-col md:flex-row justify-center gap-6">
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-red-600 transition-colors" data-step="3" data-correct="false"><span data-lang-key="judgment3_choice_incorrect"></span></button>
+                                    <button class="judgment-choice-btn bg-gray-700 text-white font-bold py-3 px-6 rounded-lg hover:bg-green-600 transition-colors" data-step="3" data-correct="true"><span data-lang-key="judgment3_choice_correct"></span></button>
+                                </div>
                             </div>
-                            <div class="failure-message hidden mt-6 bg-red-900/50 border border-red-700 p-4 rounded-lg max-w-md mx-auto">
-                                <p data-lang-key="judgment3_failure" class="mb-4"></p>
-                                <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                            <div class="feedback-wrapper hidden mt-6 max-w-md mx-auto">
+                                <div class="success-message hidden bg-green-900/50 border border-green-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment3_success" class="mb-4"></p>
+                                    <button class="continue-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3" data-type="judgment"><span data-lang-key="continue_button"></span></button>
+                                </div>
+                                <div class="failure-message hidden bg-red-900/50 border border-red-700 p-4 rounded-lg">
+                                    <p data-lang-key="judgment3_failure" class="mb-4"></p>
+                                    <button class="retry-btn text-yellow-400 hover:text-yellow-300 font-bold" data-step="3" data-type="judgment"><span data-lang-key="retry_button"></span></button>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -266,11 +314,11 @@
                 <p class="text-lg text-gray-300 max-w-2xl mx-auto mt-4" data-lang-key="support_subtitle"></p>
 
                 <div class="mt-10 flex flex-wrap justify-center items-center gap-6">
-                    <a href="https://paypal.me/anchorlau?country.x=C2&locale.x=zh_XC" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-[#00457C] text-white font-bold py-3 px-8 rounded-full hover:bg-[#003057] transition-colors shadow-lg">
+                    <a href="your-paypal-me-link" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-[#00457C] text-white font-bold py-3 px-8 rounded-full hover:bg-[#003057] transition-colors shadow-lg">
                         <span class="text-2xl">P</span>
                         <span data-lang-key="support_paypal"></span>
                     </a>
-                    <a href="https://ko-fi.com/anchorlau" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition-colors shadow-lg">
+                    <a href="your-buymeacoffee-or-kofi-link" target="_blank" rel="noopener noreferrer" class="flex items-center justify-center gap-3 bg-yellow-400 text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-yellow-500 transition-colors shadow-lg">
                         <span class="text-2xl">☕</span>
                         <span data-lang-key="support_coffee"></span>
                     </a>
@@ -280,11 +328,11 @@
                     <p class="text-gray-400 mb-4" data-lang-key="support_qrcode_title"></p>
                     <div class="flex justify-center gap-8">
                         <div class="text-center">
-                            <img src="https://github.com/user-attachments/assets/a5c5ac9f-b3d0-4244-bed5-48116cec5dce" alt="WeChat Pay QR Code" class="w-50 h-50 rounded-lg mx-auto shadow-md">
+                            <img src="https://placehold.co/144x144/28a745/ffffff?text=WeChat" alt="WeChat Pay QR Code" class="w-36 h-36 rounded-lg mx-auto shadow-md">
                             <p class="mt-2 text-sm text-green-400 font-semibold" data-lang-key="support_wechat"></p>
                         </div>
                         <div class="text-center">
-                            <img src="https://github.com/user-attachments/assets/72fb93f9-0bb3-48da-bac9-89d5f7960da7" alt="Alipay QR Code" class="w-50 h-50 rounded-lg mx-auto shadow-md">
+                            <img src="https://placehold.co/144x144/1677ff/ffffff?text=Alipay" alt="Alipay QR Code" class="w-36 h-36 rounded-lg mx-auto shadow-md">
                             <p class="mt-2 text-sm text-blue-400 font-semibold" data-lang-key="support_alipay"></p>
                         </div>
                     </div>

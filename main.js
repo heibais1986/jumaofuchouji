@@ -29,29 +29,36 @@ document.addEventListener('DOMContentLoaded', () => {
             step1_desc: "第一步：扰乱。晚宴是绝佳的机会，元宝决定给谭欣的社交活动制造一点小麻烦。他应该怎么做？",
             step1_choice_correct: "绊倒她，让她当众出丑",
             step1_choice_incorrect: "直接冲上台，抓挠谭欣",
+            step1_success: "正确！一次完美的“意外”让她当众失态，成功在她想讨好的目标面前撕开了她优雅的假面具。",
             step1_failure: "失败！猫咪的突然攻击引起了骚乱，但很快被保安制服。谭欣虽然受了惊吓，却博取了同情。计划失败。",
             step2_desc: "第二步：恐吓。谭欣要参加重要的花艺展，这是打击她事业的良机。元宝潜入了花店，他决定留下一个“惊喜”。",
             step2_choice_incorrect: "打翻所有花瓶",
             step2_choice_correct: "在她的作品里放上死老鼠",
+            step2_success: "正确！这个“惊喜”让她在行业内声名狼藉，作品被取消资格，事业遭受重创。",
             step2_failure: "失败！打翻花瓶只造成了金钱损失，谭欣很快就重新布置好了。你的行动没有造成实质性打击。",
             step3_desc: "第三步：搜证。元宝获得了接近谭欣手包的机会，里面有她的手机。这是获取核心证据的关键时刻。",
             step3_choice_correct: "用项圈摄像头拍下手机内容",
             step3_choice_incorrect: "把手机叼走藏起来",
+            step3_success: "正确！神不知鬼不觉地获取了她与其他“金主”的聊天记录，为最终的审判备好了最致命的弹药。",
             step3_failure: "失败！你成功藏起了手机，但谭欣很快通过定位找到了它。你不仅暴露了自己，还一无所获。",
             retry_button: "返回重试",
+            continue_button: "继续",
             ep6_title: "B-4: 审判",
             ep6_subtitle: "投资发布会，是谭欣人生的巅峰。她含泪讲述着“艰苦创业”的故事，殊不知，这将是她坠入地狱的开始。你，来导演这场终局。",
             judgment1_desc: "第一步：接入。元宝潜入后台，找到了控制投影仪的电脑。他必须想办法把存有证据的U盘插进去。他该怎么做？",
             judgment1_choice_correct: "制造混乱，趁技术员不备换掉U盘",
             judgment1_choice_incorrect: "跳上键盘，试图自己操作",
+            judgment1_success: "正确！你利用猫咪的身份制造了小混乱，技术员的注意力被短暂吸引，给了你换掉U盘的绝佳时机。",
             judgment1_failure: "失败！你的举动被当成普通的猫咪捣乱，被技术员抱走了。你失去了唯一的机会。",
             judgment2_desc: "第二步：开场。成功了！谭欣正在台上演讲。现在，你来决定第一张打出的牌，用什么来作为揭穿她的开场？",
             judgment2_choice_correct: "先放出她与其他“金主”的聊天记录",
             judgment2_choice_incorrect: "直接放出51万的转账记录",
+            judgment2_success: "正确！这直接打击了她“独立创业”的人设，让在场的投资者立刻对她的诚信产生怀疑，为后续的证据铺平了道路。",
             judgment2_failure: "效果不佳！谭欣声称这是恋爱赠予，虽引起议论但她暂时稳住了局势，并要求保安介入。",
             judgment3_desc: "第三步：终结。现场已经一片哗然，但还差最后一击！用什么来彻底终结这场审判？",
             judgment3_choice_correct: "放出林默最后的汉堡截图",
             judgment3_choice_incorrect: "循环播放她的聊天记录",
+            judgment3_success: "致命一击！这张图与之前的金钱证据形成了强烈的情感对比，彻底击溃了谭欣的心理防线，也让所有看客认清了她的真面目。",
             judgment3_failure: "力度不够！虽然大家已对她无比鄙夷，但缺乏致命一击让她有机会在混乱中溜走。",
             ep7_title: "结局B: 暖阳",
             ep7_subtitle: "当仇恨散去，复仇的火焰终归熄灭。他没有感到狂喜，只有一种漫长的、疲惫的解脱。他终于能像一只真正的猫那样，享受一餐美味的金枪鱼罐头。",
@@ -97,29 +104,36 @@ document.addEventListener('DOMContentLoaded', () => {
             step1_desc: "Step 1: Disruption. The gala is a perfect opportunity. Yuanbao decides to cause a little trouble for Tan Xin's social climbing. What should he do?",
             step1_choice_correct: "Trip her to cause public embarrassment",
             step1_choice_incorrect: "Rush onto the stage and scratch her",
+            step1_success: "Correct! A perfect 'accident' causes her to lose her composure, successfully tearing down her elegant facade in front of her target.",
             step1_failure: "Failed! The sudden attack caused a commotion but was quickly handled by security. Tan Xin, though frightened, gained sympathy. The plan failed.",
             step2_desc: "Step 2: Intimidation. Tan Xin is participating in a major floral exhibition, a great chance to damage her career. Yuanbao sneaks into the flower shop and decides to leave a 'surprise'.",
             step2_choice_incorrect: "Knock over all the vases",
             step2_choice_correct: "Place a dead mouse in her masterpiece",
+            step2_success: "Correct! This 'surprise' ruins her reputation in the industry, gets her disqualified, and deals a heavy blow to her career.",
             step2_failure: "Failed! Knocking over vases only caused financial loss, which she quickly recovered from. Your action caused no real damage.",
             step3_desc: "Step 3: Evidence. Yuanbao gets close to Tan Xin's handbag, which contains her phone. This is the key moment to get crucial evidence.",
             step3_choice_correct: "Use the collar camera to record the phone screen",
             step3_choice_incorrect: "Snatch the phone and hide it",
+            step3_success: "Correct! You secretly obtained the chat logs with her other 'benefactors', preparing the deadliest ammunition for the final judgment.",
             step3_failure: "Failed! You successfully hid the phone, but Tan Xin quickly located it via GPS. You not only exposed yourself but also gained nothing.",
             retry_button: "Try Again",
+            continue_button: "Continue",
             ep6_title: "B-4: The Judgment",
             ep6_subtitle: "The investment conference is the peak of Tan Xin's life. As she tearfully tells her story of 'hardship', she doesn't know it is the start of her descent into hell. It is you who will direct this finale.",
             judgment1_desc: "Step 1: Access. Yuanbao sneaks backstage and finds the laptop controlling the projector. He must find a way to plug in the USB drive with the evidence. What should he do?",
             judgment1_choice_correct: "Create a distraction and swap the USB drive",
             judgment1_choice_incorrect: "Jump on the keyboard and operate it himself",
+            judgment1_success: "Correct! You used your cat identity to create a small chaos, distracting the technician and giving you the perfect moment to swap the USB drive.",
             judgment1_failure: "Failed! Your action was seen as a cat just messing around and you were carried away by a technician. You lost your only chance.",
             judgment2_desc: "Step 2: The Opening. Success! Tan Xin is giving a speech on stage. Now, you decide the first card to play. What will you use to open the exposé?",
             judgment2_choice_correct: "Show her chat logs with other 'benefactors' first",
             judgment2_choice_incorrect: "Directly show the 510,000 yuan transfer record",
+            judgment2_success: "Correct! This directly shatters her 'independent entrepreneur' persona, making the investors immediately doubt her integrity and paving the way for further evidence.",
             judgment2_failure: "Not effective! Tan Xin claimed it was a gift. While it caused a stir, she stabilized the situation and called for security.",
             judgment3_desc: "Step 3: The Finale. The scene is in an uproar, but one final blow is needed! What will you use to end this judgment completely?",
             judgment3_choice_correct: "Show the screenshot of Lin Mo's last hamburger",
             judgment3_choice_incorrect: "Loop her incriminating chat records",
+            judgment3_success: "Fatal blow! This image creates a stark emotional contrast with the financial evidence, completely breaking Tan Xin's psychological defense and revealing her true nature to everyone.",
             judgment3_failure: "Not impactful enough! Though everyone despises her, the lack of a fatal blow gives her a chance to slip away in the chaos.",
             ep7_title: "Ending B: The Sunshine",
             ep7_subtitle: "When hatred faded, the flames of revenge were finally extinguished. He felt no ecstasy, only a long, weary release. He could finally enjoy a delicious can of tuna, like a real cat.",
@@ -232,19 +246,33 @@ document.addEventListener('DOMContentLoaded', () => {
         const step = parseInt(e.currentTarget.dataset.step);
         const isCorrect = e.currentTarget.dataset.correct === 'true';
         const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+        const choiceWrapper = currentStepContainer.querySelector('.choice-wrapper');
+        const feedbackWrapper = currentStepContainer.querySelector('.feedback-wrapper');
+
+        choiceWrapper.classList.add('hidden');
+        feedbackWrapper.classList.remove('hidden');
 
         if (isCorrect) {
-            currentStepContainer.classList.add('hidden');
-            if (step < 3) {
-                const nextStepContainer = document.getElementById(`${type}-step-${step + 1}`);
-                nextStepContainer.classList.remove('hidden');
-            } else {
-                const finalContent = document.getElementById(type === 'revenge' ? 'path-b-final-content' : 'path-b-ending');
-                finalContent.classList.remove('hidden');
-                finalContent.querySelectorAll('.story-section').forEach(s => observer.observe(s));
-            }
+            feedbackWrapper.querySelector('.success-message').classList.remove('hidden');
+            feedbackWrapper.querySelector('.failure-message').classList.add('hidden');
         } else {
-            currentStepContainer.querySelector('.failure-message').classList.remove('hidden');
+            feedbackWrapper.querySelector('.success-message').classList.add('hidden');
+            feedbackWrapper.querySelector('.failure-message').classList.remove('hidden');
+        }
+    };
+
+    const handleContinue = (e, type) => {
+        const step = parseInt(e.currentTarget.dataset.step);
+        const currentStepContainer = document.getElementById(`${type}-step-${step}`);
+        currentStepContainer.classList.add('hidden');
+
+        if (step < 3) {
+            const nextStepContainer = document.getElementById(`${type}-step-${step + 1}`);
+            nextStepContainer.classList.remove('hidden');
+        } else {
+            const finalContent = document.getElementById(type === 'revenge' ? 'path-b-final-content' : 'path-b-ending');
+            finalContent.classList.remove('hidden');
+            finalContent.querySelectorAll('.story-section').forEach(s => observer.observe(s));
         }
     };
 
@@ -261,7 +289,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const step = parseInt(e.currentTarget.dataset.step);
             const type = e.currentTarget.dataset.type || 'revenge';
             const currentStepContainer = document.getElementById(`${type}-step-${step}`);
-            currentStepContainer.querySelector('.failure-message').classList.add('hidden');
+            currentStepContainer.querySelector('.feedback-wrapper').classList.add('hidden');
+            currentStepContainer.querySelector('.choice-wrapper').classList.remove('hidden');
+        });
+    });
+
+    document.querySelectorAll('.continue-btn').forEach(button => {
+        button.addEventListener('click', (e) => {
+            const type = e.currentTarget.dataset.type || 'revenge';
+            handleContinue(e, type);
         });
     });
 
